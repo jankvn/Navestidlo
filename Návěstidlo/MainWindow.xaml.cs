@@ -28,5 +28,20 @@ namespace Návěstidlo
         {
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            nav.Source = new Uri("stranky/oaplikaci.xaml", UriKind.Relative);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Funkce není v tuto chvíli dostupná!");
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            nav.Source = new Uri("stranky/teorie.xaml", UriKind.Relative);
+        }
     }
 }

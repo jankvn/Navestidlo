@@ -12,9 +12,9 @@
     <Grid>
         <Label Content="Návěstidlo" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FFD4D4D4" Width="400" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="30" FontWeight="Bold"/>
         <Button Content="X" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="370,0,0,0" VerticalAlignment="Top" Height="30" Width="30" BorderThickness="0,0,0,0" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Click="Button_Click" Foreground="Black"/>
-        <Button Content="Teorie" HorizontalAlignment="Left" Margin="10,765,0,0" VerticalAlignment="Top" Width="123" Height="25"/>
-        <Button Content="Testy" HorizontalAlignment="Center" Margin="0,765,0,0" VerticalAlignment="Top" Width="123" Height="25"/>
-        <Button Content="O programu" HorizontalAlignment="Left" Margin="267,765,0,0" VerticalAlignment="Top" Width="123" Height="25"/>
-        <Frame Name="nav" Source="stranky/main.xaml" Margin="10,35,10,40"/>
+        <Button Content="Teorie" HorizontalAlignment="Left" Margin="10,765,0,0" VerticalAlignment="Top" Width="123" Height="25" Click="Button_Click_3"/>
+        <Button Content="Procvičování" HorizontalAlignment="Center" Margin="0,765,0,0" VerticalAlignment="Top" Width="123" Height="25" Click="Button_Click_2"/>
+        <Button Content="O programu" HorizontalAlignment="Left" Margin="267,765,0,0" VerticalAlignment="Top" Width="123" Height="25" Click="Button_Click_1"/>
+        <Frame Name="nav" Source="stranky/main.xaml" Margin="10,35,10,40" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

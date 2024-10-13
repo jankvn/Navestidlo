@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <navestidla>
+        <stuj>
+			<xa>x3</xa>
+            <nazev>Stůj!</nazev>
+            <svetla>Červené klidné světlo</svetla>
+            <popis>Zakazuje jízdu vlaku (PMD). Čelo vlaku musí zastavit před hlavním návěstidlem nebo před návěstidlem s návěstí Konec vlakové cesty.</popis>
+        </stuj>
+	  <a40avolno>
+		  <xa>x2; x5</xa>
+		  <nazev>40 a volno</nazev>
+		  <svetla>Žluté a zelené klidné světlo</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximální dovolená rychlost.</popis>
+	  </a40avolno>
+    </navestidla>
+</data>
