@@ -1,17 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <navestidla>
-        <stuj>
+  <navestidla> 
+	  <!-- Základní návěsti -->
+	  <stuj>
 			<xa>x3</xa>
+			<xr></xr>
+			<blik></blik>
+			<blikx></blikx>
             <nazev>Stůj!</nazev>
             <svetla>Červené klidné světlo</svetla>
-            <popis>Zakazuje jízdu vlaku (PMD). Čelo vlaku musí zastavit před hlavním návěstidlem nebo před návěstidlem s návěstí Konec vlakové cesty.</popis>
+            <popis>Zakazuje strojvedoucímu jízdu vlaku (PMD). Čelo jedoucího vlaku (PMD) musí zastavit 10 m (odhadem) před hlavním návěstidlem. Tam, kde hlavní návěstidlo není přímo u koleje, musí čelo vlaku zastavit před návěstidlem s návěstí Konec vlakové cesty.</popis>
         </stuj>
-	  <a40avolno>
+	  <volno>
+		  <xa>x2</xa>
+		  <xr></xr>
+		  <blik></blik>
+		  <blikx></blikx>
+		  <nazev>Volno</nazev>
+		  <svetla>Zelené klidné světlo</svetla>
+		  <popis>Dovoluje jízdu vlaku a na závislém hlavním návěstidle předvěstí dovolující návěst vyjádřenou jedním světlem na následujícím hlavním návěstidle.</popis>
+	  </volno>
+	<PN>
+		  <xa></xa>
+		<xr></xr>
+		<blik>pomalu</blik>
+		<blikx>x4</blikx>
+		  <nazev>Přivolávací návěst</nazev>
+		  <svetla>Pomalu blikající bílé světlo</svetla>
+		<popis>PN je návěstí hlavního návěstidla, která umožňuje jízdu kolem návěstidla, u kterého nelze rozsvítit dovolující návěst vyjádřenou jedním nebo dvěma světly.&#x0a;PN na vjezdových, cestových nebo odjezdových návěstidlech strojvedoucímu vlaku přikazuje:&#x0a;a) jízdu podle rozhledových poměrů&#x0a;b) jet v obvodu výhybek přilehlých k hlavnímu návěstidlu nejvýše rychlostí 30 km/h, pokud je návěstidlo označeno indikátorovou tabulkou s číslicí „3“ nebo je-li v TJŘ u příslušné stanice značka „3>“ (vyjadřující snížení rychlosti v obvodu výhybek přilehlých k hlavnímu návěstidlu při jízdě na PN na rychlost 30 km/h)
+		</popis>
+	  </PN>
+  	<PD>
+		  <xa>x4</xa>
+		<xr></xr>
+		<blik></blik>
+		<blikx></blikx>
+		  <nazev>Posun dovolen</nazev>
+		  <svetla>Klidné bílé světlo</svetla>
+		  <popis>Dovoluje posun; je-li na návěstidle platném jen pro jednu kolej, informuje o postavené posunové cestě za tímto návěstidlem a je souhlasem k zahájení posunu.</popis>
+	  </PD>
+	  <PZ>
+		  <xa>x6</xa>
+		  <xr></xr>
+		  <blik></blik>
+		  <blikx></blikx>
+		  <nazev>Posun zakázán</nazev>
+		  <svetla>Klidné modré světlo</svetla>
+		  <popis>Zakazuje posun; čelo posunového dílu musí zastavit ještě před návěstidlem. Kde takové návěstidlo není přímo u koleje, musí čelo posunového dílu zastavit před námezníkem (hrotem jazyka výhybky, výkolejkou) na konci příslušné koleje.</popis>
+	  </PZ>
+	<vystraha>
+		  <xa>x1</xa>
+		<xr></xr>
+		<blik></blik>
+		<blikx></blikx>
+		  <nazev>Výstraha</nazev>
+		  <svetla>Klidné žluté světlo</svetla>
+		  <popis>Dovoluje jízdu vlaku a předvěstí návěst Stůj na následujícím hlavním návěstidle, umístěném nejméně na zábrzdnou vzdálenost.</popis>
+	  </vystraha>
+	  <!-- Rychlostní soustava -->
+	  <r40avolno>
 		  <xa>x2; x5</xa>
-		  <nazev>40 a volno</nazev>
-		  <svetla>Žluté a zelené klidné světlo</svetla>
+		  <xr></xr>
+		  <blik></blik>
+		  <blikx></blikx>
+		  <nazev>Rychlost 40 km/h a volno</nazev>
+		  <svetla>Žluté světlo a nad ním zelené klidné světlo</svetla>
 		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximální dovolená rychlost.</popis>
-	  </a40avolno>
+	  </r40avolno>
+	  <r40a40>
+		  <xa>x5</xa>
+		  <xr></xr>
+		  <blik>pomalu</blik>
+		  <blikx>x1</blikx>
+		  <nazev>Rychlost 40 km/h a očekávejte rychlost 40 km/h</nazev>
+		  <svetla>Žluté světlo a nad ním žluté pomalu blikající světlo</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximálně 40 km/h.</popis>
+	  </r40a40>
+	  <r40avystraha>
+		  <xa>x1;x5</xa>
+		  <xr></xr>
+		  <blik></blik>
+		  <blikx></blikx>
+		  <nazev>Rychlost 40 km/h a výstraha</nazev>
+		  <svetla>Žluté světlo a nad ním žluté klidné světlo</svetla>
+		  <popis>---</popis>
+	  </r40avystraha>
+	  <r40a100>
+		  <xa>x5</xa>
+		  <xr></xr>
+		  <blik>rychle</blik>
+		  <blikx>x2</blikx>
+		  <nazev>Rychlost 40 km/h a očekávejte rychlost 100 km/h</nazev>
+		  <svetla>Žluté světlo a nad ním zelené rychle blikající světlo</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximálně 100 km/h.</popis>
+	  </r40a100>
+	<r40a60>
+		  <xa>x5</xa>
+		<xr></xr>
+		<blik>rychle</blik>
+		<blikx>x1</blikx>
+		  <nazev>Rychlost 40 km/h a očekávejte rychlost 60 km/h</nazev>
+		  <svetla>Žluté světlo a nad ním žluté rychle blikající světlo</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximálně 60 km/h.</popis>
+	  </r40a60>
+	  <r40a80>
+		  <xa>x5</xa>
+		  <xr></xr>
+		  <blik>pomalu</blik>
+		  <blikx>x2</blikx>
+		  <nazev>Rychlost 40 km/h a očekávejte rychlost 80 km/h</nazev>
+		  <svetla>Žluté světlo a nad ním zelené pomalu blikající světlo</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximálně 80 km/h.</popis>
+	  </r40a80>
+	  <r40a120>
+		  <xa>x5</xa>
+		  <xr>12</xr>
+		  <blik>rychle</blik>
+		  <blikx>x2</blikx>
+		  <nazev>Rychlost 40 km/h a očekávejte rychlost 120 km/h</nazev>
+		  <svetla>Žluté světlo, nad ním zelené rychle blikající světlo a nad ním svítící žluté číslo „12“</svetla>
+		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího návěstidla maximálně 120 km/h.</popis>
+	  </r40a120>
     </navestidla>
 </data>

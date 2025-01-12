@@ -12,7 +12,7 @@
         <Label Content="Aplikace Návěstidlo" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
         <Rectangle HorizontalAlignment="Center" Height="400" Margin="0,192,0,0" Stroke="Black" VerticalAlignment="Top" Width="125">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="/data/40avolno.png"/>
+                <ImageBrush ImageSource="/data/img/40avolno.png"/>
             </Rectangle.Fill>
         </Rectangle>
 

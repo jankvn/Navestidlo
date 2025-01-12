@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Návěstidlo.stranky
 {
     /// <summary>
-    /// Interakční logika pro stuj.xaml
+    /// Interaction logic for test.xaml
     /// </summary>
-    public partial class stop : Page
+    public partial class test : Page
     {
-        public stop()
+        public test()
         {
             InitializeComponent();
         }
