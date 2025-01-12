@@ -8,28 +8,59 @@
        d:DesignHeight="725" d:DesignWidth="380"
       Title="teorie">
 
-    <Grid Background="White">
-        <Label Content="Teorie" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="322" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
-        <Button Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Click="Button_Click" Width="30" Height="110" Cursor="Hand">
-            <StackPanel>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="#FFFFD200"/>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="Black" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="Lime"/>
-                <Ellipse Height="15" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="Red"/>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="White"/>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="#FFFFD200"/>
-
-            </StackPanel>
-        </Button>
-        <Button Style="{DynamicResource ButtonStyle1}" Click="Button_Click_1" HorizontalAlignment="Left" Margin="45,44,0,0" VerticalAlignment="Top" Width="30" Height="110" Cursor="Hand">
-            <StackPanel>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="#FFFFD200"/>
-                <Ellipse Height="15" Stroke="Black" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="Lime"/>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="Red"/>
-                <Ellipse Height="15" Visibility="Hidden" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="White"/>
-                <Ellipse Height="15" Stroke="#FF929292" Width="15" Margin="0,5,0,0" VerticalAlignment="Top" Fill="#FFFFD200"/>
-
-            </StackPanel>
-        </Button>
+    <Grid>
+        <ComboBox Name="signalpick" Margin="20,31,20,0" DropDownClosed="ComboBox_DropDownClosed" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="False" MaxDropDownHeight="350">
+            <ComboBoxItem x:Name="placeholder" Visibility="Collapsed">Prosím vyberte jednu z možností:</ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Základní návěsti ---</ComboBoxItem>
+            <ComboBoxItem x:Name="stuj" Content="Stůj" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="volno" Content="Volno" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="vystraha" Content="Výstraha" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="PN" Content="Přivolávací návěst" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="PD" Content="Posun dovolen" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="PZ" Content="Posun zakázán" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Rychlostní soustava ---</ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Rychlost 40 km/h a ... ---</ComboBoxItem>
+            <ComboBoxItem x:Name="r40avolno" Content="Rychlost 40 km/h a volno" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40avystraha" Content="Rychlost 40 km/h a výstraha" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40a40" Content="Rychlost 40 km/h a očekávejte rychlost 40 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40a60" Content="Rychlost 40 km/h a očekávejte rychlost 60 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40a80" Content="Rychlost 40 km/h a očekávejte rychlost 80 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40a100" Content="Rychlost 40 km/h a očekávejte rychlost 100 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r40a120" Content="Rychlost 40 km/h a očekávejte rychlost 120 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Rychlost 60 km/h a ... ---</ComboBoxItem>
+            <ComboBoxItem x:Name="r60avolno" Content="Rychlost 60 km/h a volno" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60avystraha" Content="Rychlost 60 km/h a výstraha" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60a40" Content="Rychlost 60 km/h a očekávejte rychlost 40 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60a60" Content="Rychlost 60 km/h a očekávejte rychlost 60 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60a80" Content="Rychlost 60 km/h a očekávejte rychlost 80 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60a100" Content="Rychlost 60 km/h a očekávejte rychlost 100 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r60a120" Content="Rychlost 60 km/h a očekávejte rychlost 120 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Rychlost 80 km/h a ... ---</ComboBoxItem>
+            <ComboBoxItem x:Name="r80avolno" Content="Rychlost 80 km/h a volno" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80avystraha" Content="Rychlost 80 km/h a výstraha" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80a40" Content="Rychlost 80 km/h a očekávejte rychlost 40 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80a60" Content="Rychlost 80 km/h a očekávejte rychlost 60 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80a80" Content="Rychlost 80 km/h a očekávejte rychlost 80 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80a100" Content="Rychlost 80 km/h a očekávejte rychlost 100 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r80a120" Content="Rychlost 80 km/h a očekávejte rychlost 120 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Rychlost 100 km/h a ... ---</ComboBoxItem>
+            <ComboBoxItem x:Name="r100avolno" Content="Rychlost 100 km/h a volno" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100avystraha" Content="Rychlost 100 km/h a výstraha" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100a40" Content="Rychlost 100 km/h a očekávejte rychlost 40 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100a60" Content="Rychlost 100 km/h a očekávejte rychlost 60 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100a80" Content="Rychlost 100 km/h a očekávejte rychlost 80 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100a100" Content="Rychlost 100 km/h a očekávejte rychlost 100 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r100a120" Content="Rychlost 100 km/h a očekávejte rychlost 120 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold" IsEnabled="False">--- Ostatní ---</ComboBoxItem>
+            <ComboBoxItem x:Name="r30" Content="Rychlost 30 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r50" Content="Rychlost 50 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r70" Content="Rychlost 70 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r90" Content="Rychlost 90 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r110" Content="Rychlost 110 km/h" Padding="15,1,4,1"></ComboBoxItem>
+            <ComboBoxItem x:Name="r120" Content="Rychlost 120 km/h" Padding="15,1,4,1"></ComboBoxItem>
+        </ComboBox>
+        <Frame Name="npages" Margin="0,66,0,0"/>
+        <Label Content="Teorie" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold"/>
 
 
     </Grid>

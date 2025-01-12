@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Návěstidlo.stranky
 {
@@ -23,16 +24,26 @@ namespace Návěstidlo.stranky
         public teorie()
         {
             InitializeComponent();
+            signalpick.SelectedIndex = 0;
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Navestp("stuj"));
+            ComboBoxItem ComboItem = (ComboBoxItem)signalpick.SelectedItem;
+            string vybran = ComboItem.Name;
+
         }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        internal string vybran;
+        private void ComboBox_DropDownClosed(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new Navestp("a40avolno"));
+            ComboBoxItem ComboItem = (ComboBoxItem)((ComboBox)sender).SelectedItem;
+            if (ComboItem != null)                                                         
+            {
+                string vybran = ComboItem.Name;
+                if (vybran != "placeholder")
+                npages.Navigate(new Navestp(vybran)); 
+                
+                
+            }
         }
     }
 }

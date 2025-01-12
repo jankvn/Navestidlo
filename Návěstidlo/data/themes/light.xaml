@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="headlinecolor" Color="#cacbcc"/>
+    <SolidColorBrush x:Key="headlinetxtcolor" Color="Black"/>
+    <SolidColorBrush x:Key="CustomLabelColor" Color="Black"/>
+    <SolidColorBrush x:Key="ButtonsLabel" Color="Black"/>
+    <SolidColorBrush x:Key="Buttonsback" Color="White"/>
+    <SolidColorBrush x:Key="Buttonshover" Color="LightGray"/>
+    <SolidColorBrush x:Key="mButtonshoverb" Color="#999999"/>
+    <SolidColorBrush x:Key="comboboxcl" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="comboboxfr" Color="#000000"/>
+    <SolidColorBrush x:Key="arrowcl" Color="#e0e0e0"/>
+    <SolidColorBrush x:Key="arrowfl" Color="Black"/>
+    <SolidColorBrush x:Key="arrowmo" Color="#cccccc"/>
+    <SolidColorBrush x:Key="borderbg" Color="Black"/>
+    <SolidColorBrush x:Key="cbbg" Color="White"/>
+    <SolidColorBrush x:Key="cbfg" Color="Black"/>
+    <SolidColorBrush x:Key="tbbg" Color="White"/>
+    <SolidColorBrush x:Key="tbfg" Color="Black"/>
+    <SolidColorBrush x:Key="cbihoverfg" Color="LightGray"/>
+    <SolidColorBrush x:Key="cellbg" Color="White"/>
+    <SolidColorBrush x:Key="cellfg" Color="Black"/>
+    <SolidColorBrush x:Key="mainbuttonhover" />
+    <SolidColorBrush x:Key="cbihoverbg" />
+    <SolidColorBrush x:Key="menubg" Color="#f5f5f5"/>
+    <SolidColorBrush x:Key="mainbg" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="activemenuitemb" Color="#6b6b6b"/>
+    <SolidColorBrush x:Key="activemenuitem" Color="#dbdbdb"/>
+    <SolidColorBrush x:Key="mainbtnhover" Color="#8b8c8b"/>
+    <SolidColorBrush x:Key="ComboBox.Static.Background" Color="#c9c9c9"/>
+    <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#c9c9c9"/>
+    <SolidColorBrush x:Key="comboboxhover" Color="#dedede"/>
+    <SolidColorBrush x:Key="arrowpr" Color="LightGray"/>
+    <SolidColorBrush x:Key="labelbordercl" Color="Black"/>
+    <SolidColorBrush x:Key="linkfg" Color="#424242"/>
+    <SolidColorBrush x:Key="elbtncl" Color="#FFFFFF"/>
+    <BitmapImage x:Key="menuico" UriSource="/Návěstidlo;component/data/img/menu-light.png" />
+    <BitmapImage x:Key="domu" UriSource="/Návěstidlo;component/data/img/home-light.png" />
+    <BitmapImage x:Key="nastaveni" UriSource="/Návěstidlo;component/data/img/settings-light.png" />
+    <BitmapImage x:Key="oaplikaci" UriSource="/Návěstidlo;component/data/img/about-light.png" />
+    <BitmapImage x:Key="maxico" UriSource="/Návěstidlo;component/data/img/max-light.png" />
+</ResourceDictionary>
