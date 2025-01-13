@@ -24,8 +24,12 @@
     </Page.Resources>
 
     <Grid RenderTransformOrigin="0.499,0.479">
-        <Label Name="headline" Content="---" Margin="15,10,15,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="14"/>
-        <Grid Name="navest" Width="84" Height="344" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,96,0,0" Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Name="headline" Content="---" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="14" Grid.ColumnSpan="2"/>
+        <Grid Name="navest" Width="84" Height="344" Margin="0,96,0,0" Background="Black" Grid.ColumnSpan="2" VerticalAlignment="Top">
             <Ellipse Name="x1" Height="50" Stroke="Black" Width="50" Margin="17,10,17,0" VerticalAlignment="Top" Visibility="Hidden">
                 <Ellipse.Fill>
                     <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
@@ -93,18 +97,102 @@
                 </Ellipse.Fill>
             </Ellipse>
         </Grid>
-        <Label Name="vzhlednav" Content="---" Margin="10,525,10,0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1,1,1,1"/>
-        <Border Margin="10,589,10,10" BorderBrush="Black" BorderThickness="1,1,1,1">
+        <Border x:Name="popisnavwin" Margin="10,525,10,10" BorderBrush="Black" BorderThickness="1,1,1,1" Grid.ColumnSpan="2">
             <TextBlock Name="popisnav" HorizontalAlignment="Left" TextWrapping="Wrap" Text="---" VerticalAlignment="Top" Padding="5,5,0,0" Margin="-1,-1,0,0"/>
         </Border>
-        <Label Content="Popis návěsti:" HorizontalAlignment="Left" Margin="10,558,0,0" VerticalAlignment="Top" FontWeight="Bold" Padding="0,5,5,5"/>
-        <Label Content="Vzhled:" HorizontalAlignment="Left" Margin="10,494,0,0" VerticalAlignment="Top" FontWeight="Bold" Padding="0,5,5,5" Width="285"/>
-        <StackPanel Margin="148,445,148,251" Background="Black" Width="84">
-            <ProgressBar Name="line1" Visibility="Hidden" Height="10" Width="76" VerticalAlignment="Top" Margin="0,5,0,0" Background="#FFFBFBFA" BorderThickness="0,0,0,0"/>
-            <ProgressBar Name="line2" Visibility="Hidden" HorizontalAlignment="Center" Height="10" Margin="0,10,0,0" VerticalAlignment="Top" Width="76" BorderThickness="0,0,0,0" Background="#FFFEFFFE"/>
+        <Label x:Name="popisnavhead" Content="Popis návěsti:" Margin="10,494,10,0" VerticalAlignment="Top" FontWeight="Bold" Padding="0,5,5,5" Grid.ColumnSpan="2"/>
+        <Grid Margin="0,445,0,251" Background="Black" Width="84" Grid.ColumnSpan="2">
+            <ProgressBar Name="line1" Visibility="Hidden" Height="10" Width="76" VerticalAlignment="Top" Margin="0,10,0,0" Background="#FFFBFBFA" BorderThickness="0,0,0,0"/>
+            <ProgressBar Name="line2" Visibility="Hidden" HorizontalAlignment="Center" Height="10" Margin="0,25,0,0" VerticalAlignment="Top" Width="76" BorderThickness="0,0,0,0" Background="#FFFEFFFE"/>
+            <TextBlock Name="indicator2" Visibility="Hidden" Text="3" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Padding="0,0,0,0"/>
+        </Grid>
+        <StackPanel Margin="148,43,148,650" Background="Black" Width="84" Grid.ColumnSpan="2">
+            <TextBlock x:Name="ocekavanarychlost" Height="48" Width="84" Foreground="#FFF7FF00" Visibility="Visible" FontSize="34" TextAlignment="Center" Background="Black"/>
         </StackPanel>
-        <StackPanel Margin="148,44,148,649" Background="Black" Width="84">
-            <TextBlock x:Name="ocekavanarychlost" Height="48" Width="83" Foreground="#FFF7FF00" Visibility="Visible" FontSize="34" TextAlignment="Center" Background="Black"/>
+        <Grid x:Name="navest_Copy" Width="84" Height="344" Visibility="Hidden" Background="Black" Grid.ColumnSpan="2" Margin="180,96,0,0" VerticalAlignment="Top">
+            <Ellipse x:Name="x7" Height="50" Stroke="Black" Width="50" Margin="17,10,17,0" VerticalAlignment="Top" Visibility="Hidden">
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#f1f50a" Offset="0.40" />
+                        <GradientStop Color="#888a2f" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="x8" Height="50" Stroke="Black" Width="50" Margin="17,65,17,0" VerticalAlignment="Top" Visibility="Hidden">
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#16cc47" Offset="0.40" />
+                        <GradientStop Color="#1f542d" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="x9" Height="50" Width="50" Visibility="Hidden" Margin="17,232,17,62">
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#3939e6" Offset="0.40" />
+                        <GradientStop Color="#0909ed" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="x10" Height="50" Stroke="Black" Width="50" Margin="17,122,17,0" VerticalAlignment="Top" Visibility="Hidden">
+                <!-- Červená -->
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#ff0000" Offset="0.40" />
+                        <GradientStop Color="#9c2222" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="x11" Height="50" Stroke="Black" Width="50" Margin="17,177,17,0" VerticalAlignment="Top" Visibility="Hidden">
+                <!-- Bílá -->
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#fcfcfc" Offset="0.40" />
+                        <GradientStop Color="#a3a3a2" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="x12" Height="50" Stroke="Black" Width="50" Margin="17,284,17,0" VerticalAlignment="Top" Visibility="Hidden">
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <GradientStop Color="#f1f50a" Offset="0.40" />
+                        <GradientStop Color="#888a2f" Offset="0.85" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Grid>
+        <Grid Name="druhyindikator" Visibility="Hidden" Margin="180,445,0,251" Background="Black" Width="84" Grid.ColumnSpan="2">
+            <TextBlock TextAlignment="Center" Foreground="Yellow" Text="3" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-4,0,0"/>
+            <ProgressBar HorizontalAlignment="Left" Height="5" Margin="10,0,0,0" VerticalAlignment="Center" Width="35" RenderTransformOrigin="0.5,0.5" Background="Yellow" BorderBrush="Yellow" Foreground="Yellow">
+                <ProgressBar.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90.0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ProgressBar.RenderTransform>
+            </ProgressBar>
+            <ProgressBar HorizontalAlignment="Left" Height="5" Margin="38,0,0,0" VerticalAlignment="Center" Width="35" RenderTransformOrigin="0.5,0.5" Background="Yellow" BorderBrush="Yellow" Foreground="Yellow">
+                <ProgressBar.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90.0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ProgressBar.RenderTransform>
+            </ProgressBar>
+
+        </Grid>
+        <StackPanel Name="druhyindc" Margin="47,43,0,650" Background="Black" Width="84" Visibility="Hidden" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock x:Name="ocekavanarychlost1" Height="48" Width="84" Foreground="#FFF7FF00" Visibility="Visible" FontSize="34" TextAlignment="Center" Background="Black"/>
         </StackPanel>
     </Grid>
 </Page>

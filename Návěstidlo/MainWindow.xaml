@@ -25,13 +25,13 @@
                 <ColumnDefinition Width="988*"/>
             </Grid.ColumnDefinitions>
             <controls:hamburgermenu Grid.ColumnSpan="2"></controls:hamburgermenu>
-            <!-- <Border Opacity="0" BorderBrush="Black" MinWidth="500px" Margin="43,0,10,10" CornerRadius="10" Name="messagepanel" x:FieldModifier="public" Height="50" VerticalAlignment="Bottom" Visibility="Hidden" Grid.Column="1">
+            <Border Opacity="0" BorderBrush="Black" MinWidth="500px" Margin="22,0,10,10" CornerRadius="10" Name="messagepanel" x:FieldModifier="public" Height="50" VerticalAlignment="Bottom" Visibility="Hidden" Grid.Column="1">
                 <Grid>
-                    <Button Name="okbtn" Content="{DynamicResource hide}" x:FieldModifier="public" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Width="80" Click="okbtn_Click" Cursor="Hand" Margin="0,0,15,0"/>
+                    <Button Name="okbtn" Content="Zavřít" x:FieldModifier="public" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Width="80" Click="okbtn_Click" Cursor="Hand" Margin="0,0,15,0"/>
                     <Label Name="zprava" x:FieldModifier="public" Content="Toto je testovací zpráva!" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Center" FontSize="14" Height="28" Foreground="White"/>
                     <Label Name="typzpravy" Content="Info:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Foreground="White" Width="65" FontSize="14" Padding="0,5,5,5"/>
                 </Grid>
-            </Border> -->
+            </Border>
         </Grid>
     </Grid>
 </Window>

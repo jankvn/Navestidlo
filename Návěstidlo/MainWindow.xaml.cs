@@ -5,6 +5,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -111,6 +112,38 @@ namespace Návěstidlo
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             //nav.Source = new Uri("stranky/teorie.xaml", UriKind.Relative);
+        }
+        public void Showmessage(string oznameni, string typ, string typ1)
+        {
+            if (typ1 == "Chyba")
+            {
+                messagepanel.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#f74a4d"));
+            }
+            if (typ1 == "Info")
+            {
+                messagepanel.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF277D2F"));
+            }
+            messagepanel.Visibility = Visibility.Visible;
+            typzpravy.Content = typ;
+            zprava.Content = oznameni;
+            var a = new DoubleAnimation
+            {
+                From = 1.0,
+                To = 1.0,
+                FillBehavior = FillBehavior.Stop,
+                BeginTime = TimeSpan.FromSeconds(0),
+                Duration = new Duration(TimeSpan.FromSeconds(10))
+            };
+            var storyboard = new Storyboard();
+            storyboard.Children.Add(a);
+            Storyboard.SetTarget(a, messagepanel);
+            Storyboard.SetTargetProperty(a, new PropertyPath(OpacityProperty));
+            storyboard.Completed += delegate { messagepanel.Visibility = System.Windows.Visibility.Hidden; };
+            storyboard.Begin();
+        }
+        private void okbtn_Click(object sender, RoutedEventArgs e)
+        {
+            messagepanel.Visibility = Visibility.Hidden;
         }
     }
 }
