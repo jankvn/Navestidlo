@@ -30,6 +30,11 @@ namespace Návěstidlo.stranky
         internal string xpopis;
         internal string xblik;
         internal string xblikx;
+        internal string xindc;
+        internal string xlin1;
+        internal string xlin2; 
+        internal object xlin3;
+        internal string xblikx2;
         public Navestp(string kodnavesti)
         {
             InitializeComponent();
@@ -43,8 +48,12 @@ namespace Návěstidlo.stranky
                                  cls = (string)ele.Element("xa"),
                                  rych = (string)ele.Element("xr"),
                                  nazev = (string)ele.Element("nazev"),
+                                 indc = (string)ele.Element("indikatordole"),
+                                 lin1 = (string)ele.Element("linka1"),
+                                 lin2 = (string)ele.Element("linka2"),
                                  blik = (string)ele.Element("blik"),
                                  blikx = (string)ele.Element("blikx"),
+                                 blikx2 = (string)ele.Element("blikx2"),
                                  svetla = (string)ele.Element("svetla"),
                                  popis = (string)ele.Element("popis"),
                              };
@@ -55,8 +64,12 @@ namespace Návěstidlo.stranky
                     xnazev = t.nazev;
                     xblik = t.blik;
                     xblikx = t.blikx;
+                    xblikx2 = t.blikx2;
                     xsvetla = t.svetla;
                     xpopis = t.popis;
+                    xindc = t.indc;
+                    xlin1 = t.lin1;
+                    xlin2 = t.lin2;
                 }
                 if (kodnavesti != null)
                 {
@@ -74,7 +87,6 @@ namespace Návěstidlo.stranky
                         }
                     }
                     //nazevnavesti.Content = xnazev;
-                    vzhlednav.Content = xsvetla;
                     popisnav.Text = xpopis;
                     headline.Content = xnazev;
                     if (xblik == "pomalu")
@@ -90,7 +102,46 @@ namespace Návěstidlo.stranky
                         ocekavanarychlost.Visibility = Visibility.Visible;
                         ocekavanarychlost.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 0));
                         ocekavanarychlost.Text = xrych;
+                        if (xindc == "3")
+                        {
+                            ocekavanarychlost1.Text = xrych;
+                        }
                     }
+                    if(xindc != "")
+                    {
+                        indicator2.Visibility = Visibility.Visible;
+                        indicator2.Text = xindc;
+                    }
+                    if(xindc == "3")
+                    {
+                        druhyindikator.Visibility = Visibility.Visible;
+                        navest_Copy.Visibility = Visibility.Visible;
+                        druhyindc.Visibility = Visibility.Visible;
+                    }
+                    if (xpopis == "")
+                    {
+                        popisnav.Visibility = Visibility.Hidden;
+                        popisnavhead.Visibility = Visibility.Hidden;
+                        popisnavwin.Visibility = Visibility.Hidden;
+                    }
+                    if (xlin1 == "6")
+                    {
+                        line1.Background = new SolidColorBrush(Color.FromRgb(255, 255, 0));
+                        line1.Visibility = Visibility.Visible;
+                    }
+                    if (xlin1 == "8")
+                    {
+                        line1.Background = new SolidColorBrush(Color.FromRgb(25, 140, 22));
+                        line1.Visibility = Visibility.Visible;
+                    }
+                    if (xlin1 == "10" && xlin2=="10")
+                    {
+                        line1.Background = new SolidColorBrush(Color.FromRgb(25, 140, 22));
+                        line1.Visibility = Visibility.Visible;
+                        line2.Background = new SolidColorBrush(Color.FromRgb(25, 140, 22));
+                        line2.Visibility = Visibility.Visible;
+                    }
+
                 }
                 /*nazevnavesti.Content = xnazev;
                 vzhlednav.Content = xsvetla;
@@ -111,6 +162,7 @@ namespace Návěstidlo.stranky
             }
         }
         private bool BlinkOn = false;
+        private bool BlinkOn1 = false;
         private void Blink_slow(object sender, RoutedEventArgs e)
         {
             DispatcherTimer timer = new DispatcherTimer();
@@ -127,10 +179,10 @@ namespace Návěstidlo.stranky
         }
         private void timer_Tick(object sender, EventArgs e)
         {
-            object prvekovl1 = navest.FindName(xblikx);
-            if (prvekovl1 is Ellipse)
+            object prvekovl = navest.FindName(xblikx);
+            if (prvekovl is Ellipse)
             {
-                Ellipse relement = prvekovl1 as Ellipse;
+                Ellipse relement = prvekovl as Ellipse;
                 if (BlinkOn)
                 {
                     relement.Visibility = Visibility.Visible;
@@ -141,11 +193,20 @@ namespace Návěstidlo.stranky
                 }
                 BlinkOn = !BlinkOn;
             }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.GoBack();
+            object prvekovl2 = navest.FindName(xblikx2);
+            if (prvekovl2 is Ellipse)
+            {
+                Ellipse relement1 = prvekovl2 as Ellipse;
+                if (BlinkOn1)
+                {
+                    relement1.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    relement1.Visibility = Visibility.Hidden;
+                }
+                BlinkOn1 = !BlinkOn1;
+            }
         }
     }
 }

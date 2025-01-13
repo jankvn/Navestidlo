@@ -37,8 +37,13 @@ namespace Návěstidlo.controls
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            nav.Source = new Uri("../stranky/Nastaveni.xaml", UriKind.Relative);
+            nav.Source = new Uri("../stranky/Rychsoust.xaml", UriKind.Relative);
 
+        }
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            MainWindow win = (MainWindow)MainWindow.GetWindow(this);
+            win.Showmessage("Na této funkci se pracuje!", "Chyba", "Chyba");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -53,7 +58,7 @@ namespace Návěstidlo.controls
                 var a = new DoubleAnimation
                 {
                     From = 50,
-                    To = 170,
+                    To = 250,
                     BeginTime = TimeSpan.FromSeconds(0),
                     Duration = new Duration(TimeSpan.FromMilliseconds(200)),
                 };

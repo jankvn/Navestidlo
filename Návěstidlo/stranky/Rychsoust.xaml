@@ -1,0 +1,39 @@
+﻿<Page x:Class="Návěstidlo.stranky.Rychsoust"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Návěstidlo.stranky"
+      mc:Ignorable="d" 
+      d:DesignHeight="725" d:DesignWidth="400"
+      Title="Rychsoust">
+
+    <Grid>
+        <Label Content="Rychlostní soustava" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label Content="Rychlost" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" Width="57" Height="26" FontWeight="Bold"/>
+        <ComboBox DropDownClosed="ComboBox_DropDownClosed" Name="vybrych1" HorizontalAlignment="Left" Margin="56,36,0,0" VerticalAlignment="Top" Width="122" Height="26" Cursor="Hand" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="em" Content="---" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r30" Content="30 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r40" Content="40 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r50" Content="50 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r60" Content="60 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r80" Content="80 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r100" Content="100 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="r120" Content="120 km/h" ></ComboBoxItem>
+        </ComboBox>
+        <Label Content="a" HorizontalAlignment="Left" Margin="182,36,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
+        <ComboBox Name="vybrych2" DropDownClosed="ComboBox_DropDownClosed" HorizontalAlignment="Left" Margin="203,36,0,0" VerticalAlignment="Top" Width="187" Height="26" Cursor="Hand" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="em1" Content="---" ></ComboBoxItem>
+            <ComboBoxItem x:Name="avolno" Content="volno" ></ComboBoxItem>
+            <ComboBoxItem x:Name="avystraha" Content="výstraha" ></ComboBoxItem>
+            <ComboBoxItem x:Name="aopvystraha" Content="opakování návěsti výstraha" ></ComboBoxItem>
+            <ComboBoxItem x:Name="a40" Content="očekávejte rychlost 40 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="a60" Content="očekávejte rychlost 60 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="a80" Content="očekávejte rychlost 80 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="a100" Content="očekávejte rychlost 100 km/h" ></ComboBoxItem>
+            <ComboBoxItem x:Name="a120" Content="očekávejte rychlost 120 km/h" ></ComboBoxItem>
+        </ComboBox>
+        <Frame Name="sigshow" Margin="0,67,0,0"/>
+
+    </Grid>
+</Page>
