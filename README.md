@@ -4,5 +4,4 @@
 Nutnost instalace .net 6.0 <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">(možno stáhnout odsud)</a></p>
 
 ### Zatím ve vývoji, může se chovat nestabilně
-<p>Aplikace je pouze v 🇨🇿 jazyce.</br>
-</p>
+<p>Aplikace je pouze v 🇨🇿 jazyce.</br></p>
