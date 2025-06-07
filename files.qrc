@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/device-def.png</file>
+        <file>images/home-dark.png</file>
+        <file>images/home-light.png</file>
+        <file>images/chyby-dark.png</file>
+        <file>images/chyby-light.png</file>
+        <file>images/images.txt</file>
+        <file>images/loggedin-dark.png</file>
+        <file>images/loggedin-light.png</file>
+        <file>images/loggedout-dark.png</file>
+        <file>images/loggedout-light.png</file>
+        <file>images/logo.png</file>
+        <file>images/logout.png</file>
+        <file>images/moon.png</file>
+        <file>images/moon-dark.png</file>
+        <file>images/moon-light.png</file>
+        <file>images/neprnavic.png</file>
+        <file>images/oznpicn.png</file>
+        <file>images/plchldr.png</file>
+        <file>images/rychsoustaic.png</file>
+        <file>images/settings-dark.png</file>
+        <file>images/settings-light.png</file>
+        <file>images/sun.png</file>
+        <file>images/sun-dark.png</file>
+        <file>images/sun-light.png</file>
+        <file>images/testy.png</file>
+        <file>images/testy-dark.png</file>
+        <file>images/testy-light.png</file>
+        <file>images/Thumbs.db</file>
+        <file>images/zaklnavic.png</file>
+        <file>db/svetelna.db</file>
+        <file>aboutapp.qml</file>
+        <file>Main.qml</file>
+        <file>mainp.qml</file>
+        <file>ostnav.qml</file>
+        <file>oznp.qml</file>
+        <file>rychs.qml</file>
+        <file>zaknav.qml</file>
+        <file>VzhledAplikace.qml</file>
+    </qresource>
+</RCC>
