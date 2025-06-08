@@ -38,4 +38,13 @@ Page {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
     }
+    ListView {
+        id: someListView
+        y: 100
+        model: data
+        delegate: Text {
+            anchors.fill: parent
+            text: someRoleName
+        }
+    }
 }

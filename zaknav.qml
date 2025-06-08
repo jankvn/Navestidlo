@@ -9,28 +9,33 @@ import QtQuick 2.0
 Page {
     id: root
     anchors.fill: parent
+    Layout.fillWidth: true
+    Layout.fillHeight: true
     property string myString: znd.xbarva()
     property variant stringList: myString.split(';')
     ComboBoxHandler {
         id: handler
     }
-    background: Rectangle {
-        opacity: enabled ? 1 : 0.3
-        color: "#ffffff"
-    }
+    Rectangle {
+Layout.fillWidth: true
+Layout.fillHeight: true
     GridLayout {
         anchors.fill: parent
         columns: 1
         rowSpacing: 0
         columnSpacing: 0
         Rectangle {
+           color: vzhledAplikace.bg
+           height: root.height
+    width:root.width
+        Rectangle {
             id: xsrectangle
             x: 0
             y: 0
             Layout.fillWidth: true
             height: 40
-            color: "#d4d4d4"
-            width: root.width
+            color: vzhledAplikace.headbg
+            width: parent.width
 
             Text {
                 id: text1
@@ -40,11 +45,13 @@ Page {
                 width: root.width
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
+                color: vzhledAplikace.textc
             }
         }
-        Rectangle{
-            Layout.fillWidth: true
-            height: 50
+                Rectangle{
+                    y: 40
+                    width: root.width
+                    //Layout.fillWidth: true
             ComboBox {
                 id: control
                 width: 500
@@ -175,15 +182,16 @@ Page {
                 }
             }}
             Rectangle{
-                Layout.fillHeight: true
-                Layout.fillWidth: true
-                y: 50
+                //Layout.fillHeight: true
+                width: root.width
+                y: 90
             RowLayout {
-                anchors.fill: parent
-                spacing: 0
+                        anchors.fill: parent
+                        //width: root.width
+                        spacing: 0
                 Rectangle {
-                    Layout.preferredWidth: parent.width / 2
-                    Layout.fillHeight: true
+                            Layout.preferredWidth: parent.width / 2
+                            Layout.fillHeight: true
                     Rectangle{
                         y: 10
                         color: "#000000"
@@ -355,8 +363,8 @@ Page {
                     }
                 }
                 Rectangle {
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
 
                        Text {
                            id: text6
@@ -365,13 +373,14 @@ Page {
                            text: qsTr("Název návěsti:")
                            font.pixelSize: 15
                         font.bold: true
+                                color: vzhledAplikace.textc
                        }
                         Rectangle{
                         x: 8
                         width: parent.width - 15
                         height: 30
                         y: 35
-                        color: "#dddddd"
+                        color: vzhledAplikace.headbg
                         Text {
                             id: text7
                             text: "---------"
@@ -379,6 +388,7 @@ Page {
                             font.pixelSize: 15
                             verticalAlignment: Text.AlignVCenter
                             padding: 5
+                            color: vzhledAplikace.textc
                         }
                     }
 
@@ -390,13 +400,14 @@ Page {
                            font.pixelSize: 15
                            text: "Význam návěsti:"
                         font.bold: true
+                                color: vzhledAplikace.textc
                        }
                         Rectangle{
                         x: 8
                         y: 95
                         width: parent.width - 15
                         height: childrenRect.height
-                        color: "#dddddd"
+                        color: vzhledAplikace.headbg
                         Text {
                             id: text9
                             textFormat: TextEdit.RichText
@@ -405,6 +416,7 @@ Page {
                             font.pixelSize: 15
                             text: "---------"
                             padding: 5
+                            color: vzhledAplikace.textc
                         }
                     }
 
@@ -432,5 +444,5 @@ Page {
 
 }
 }
+}}
 }
-

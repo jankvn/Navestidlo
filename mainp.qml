@@ -5,10 +5,6 @@ import QtQuick.Layouts
 Page {
     id: root
     anchors.fill: parent
-    VzhledAplikace
-    {
-        id: vzhledAplikace
-    }
     Rectangle {
         width: root.width
         height: root.height
@@ -20,8 +16,8 @@ Page {
             //width: 1000
             Layout.fillWidth: true
             height: 40
-            color: "#d4d4d4"
-            width: root.width
+            color: vzhledAplikace.headbg
+            width: parent.width
 
             Text {
                 id: text1
@@ -31,6 +27,7 @@ Page {
                 width: root.width
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
+                color: vzhledAplikace.textc
             }
         }
         Text {
@@ -40,6 +37,7 @@ Page {
             font.pixelSize: 13
             font.bold: true
             horizontalAlignment: Text.AlignLeft
+            color: vzhledAplikace.textc
         }
         Text {
             x: 5
@@ -48,6 +46,7 @@ Page {
             font.pixelSize: 13
             font.bold: true
             horizontalAlignment: Text.AlignLeft
+            color: vzhledAplikace.textc
         }
 
     }

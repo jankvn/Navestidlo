@@ -8,8 +8,10 @@ QtObject{
     property color headbg: "#d4d4d4"
     property color buttonbg: "#ffffff"
     property color buttonhover: "#dddddd"
+    property string home: "qrc:/images/home-light.png"
+   property string set: "qrc:/images/settings-light.png"
     function theme() {
-        if (userSettings.theme == "tmavy")
+        if (xsettings.theme() == "tmavy")
         {
             bg = "#1A1A1A"
             textc = "#ededed"
@@ -18,6 +20,8 @@ QtObject{
             headbg = "#474747"
             buttonbg = "#000"
             buttonhover = "#6b6b6b"
+            home = "qrc:/images/home-dark.png"
+            set = "qrc:/images/settings-dark.png"
         }
         else{
             bg = "#FFFFFF"
@@ -27,8 +31,11 @@ QtObject{
             headbg = "#d4d4d4"
             buttonbg = "#ffffff"
             buttonhover = "#dddddd"
+            home = "qrc:/images/home-light.png"
+            set = "qrc:/images/settings-light.png"
         }
-    if (xsettings.vytahninastaveni() == "tmavy")
+    }
+   /* if (xsettings.vytahninastaveni() == "tmavy")
         {
             bg = "#1A1A1A"
             textc = "#ededed"
@@ -38,7 +45,7 @@ QtObject{
             buttonbg = "#000"
             buttonhover = "#6b6b6b"
         }
-    }
+    }*/
 
     function svetly(){
         bg = "#FFFFFF"

@@ -815,7 +815,7 @@ Page {
                         color: "#dddddd"
                         Text {
                             id: text7
-                            text: "---------"
+                            text: "--------"
                             height: parent.height
                             font.pixelSize: 15
                             verticalAlignment: Text.AlignVCenter
@@ -844,7 +844,7 @@ Page {
                             width: parent.width
                             wrapMode: Text.Wrap
                             font.pixelSize: 15
-                            text: qsTr("-----")
+                            text: "--------"
                             padding: 5
                         }
                     }

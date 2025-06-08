@@ -15,6 +15,7 @@ signals:
 public slots:
     void vytahninastaveni();
     void nastaveni(QString rezim);
+    QString theme();
 };
 
 #endif // SETTINGS_H

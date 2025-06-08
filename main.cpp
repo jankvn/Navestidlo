@@ -26,10 +26,17 @@ int main(int argc, char *argv[])
     splitstr splitstrc;
     settings set;
     QQmlApplicationEngine engine;
+
+    //QSqlQueryModel *oznpx = new oznp();
+    //oznpx->setQuery("SELECT someRoleName, otherRoleName FROM some_table");
+
     engine.rootContext()->setContextProperty("znd", &znd);
     engine.rootContext()->setContextProperty("rnd", &rnd);
     engine.rootContext()->setContextProperty("stringProcessor", &splitstrc);
     engine.rootContext()->setContextProperty("xsettings", &set);
+
+    //engine.rootContext()->setContextProperty("data", oznpx);
+
     app.setWindowIcon(QIcon(":/images/logo.png"));
     QObject::connect(
         &engine,
