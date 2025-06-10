@@ -10,6 +10,8 @@ import QtQuick 2.0
 Page {
     id: root
     anchors.fill: parent
+    Layout.fillWidth: true
+    Layout.fillHeight: true
     background: Rectangle {
         opacity: enabled ? 1 : 0.3
         color: "#ffffff"
@@ -17,36 +19,46 @@ Page {
     ComboBoxHandler {
         id: handler
     }
+    Rectangle {
+Layout.fillWidth: true
+Layout.fillHeight: true
     GridLayout {
         anchors.fill: parent
         columns: 1
         rowSpacing: 0
         columnSpacing: 0
         Rectangle {
-            id: xsrectangle
-            x: 0
-            y: 0
-            //width: 1000
-            Layout.fillWidth: true
-            height: 40
-            color: "#d4d4d4"
-            width: root.width
+            color: vzhledAplikace.bg
+            height: root.height
+            width:root.width
+            Rectangle {
+                id: xsrectangle
+                x: 0
+                y: 0
+                //width: 1000
+                Layout.fillWidth: true
+                height: 40
+                color: vzhledAplikace.headbg
+                width: parent.width
 
-            Text {
-                id: text1
-                y: 8
-                text: qsTr("Rychlostní soustava")
-                font.pixelSize: 18
-                width: root.width
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-            }
+                Text {
+                    id: text1
+                    y: 8
+                    text: qsTr("Rychlostní soustava")
+                    font.pixelSize: 18
+                    width: root.width
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                    color: vzhledAplikace.textc
+                }
         }
         Rectangle{
             //Layout.fillWidth: true
+            y:40
             height: 50
             anchors.horizontalCenter: parent.horizontalCenter
             width: 720
+            color: vzhledAplikace.bg
             Text {
                 y: 10
                 x: 10
@@ -54,6 +66,7 @@ Page {
                 text: qsTr("Rychlost")
                 font.pixelSize: 15
                 verticalAlignment: Text.AlignVCenter
+                color: vzhledAplikace.textc
             }
             ComboBox {
                 id: control
@@ -81,10 +94,13 @@ Page {
                     width: control.width
                     contentItem: Text {
                         text: delegate.model[control.textRole]
-                        color: "#000000"
+                        color: vzhledAplikace.textc
                         font: control.font
                         elide: Text.ElideRight
                         verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: highlighted ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
                     }
                     highlighted: control.highlightedIndex === index
                 }
@@ -123,7 +139,7 @@ Page {
                         context.lineTo(width, 0);
                         context.lineTo(width / 2, height);
                         context.closePath();
-                        context.fillStyle = "#000000";
+                        context.fillStyle = vzhledAplikace.textc;
                         context.fill();
                     }
                 }
@@ -134,7 +150,7 @@ Page {
 
                     text: control.displayText
                     font: control.font
-                    color: "#000000"
+                    color: vzhledAplikace.textc
                     verticalAlignment: Text.AlignVCenter
                     elide: Text.ElideRight
                 }
@@ -142,7 +158,9 @@ Page {
                 background: Rectangle {
                     implicitWidth: 500
                     implicitHeight: 35
-                    color: "#d4d4d4"
+                    color: control.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                    border.color: vzhledAplikace.textc
+                    border.width: 1
                 }
 
                 popup: Popup {
@@ -162,7 +180,7 @@ Page {
                     }
 
                     background: Rectangle {
-                        color: "#d4d4d4"
+                        color: vzhledAplikace.headbg
                     }
                 }
             }
@@ -173,10 +191,10 @@ Page {
                 text: qsTr("a")
                 font.pixelSize: 15
                 verticalAlignment: Text.AlignVCenter
+                color: vzhledAplikace.textc
             }
         ComboBox {
             id: control2
-            displayText: currentIndex === -1 ? "Please Choose..." : currentText
             width: 250
             y: 5
             x: 360
@@ -201,10 +219,13 @@ Page {
                 width: control2.width
                 contentItem: Text {
                     text: delegate2.model[control2.textRole]
-                    color: "#000000"
+                    color: vzhledAplikace.textc
                     font: control2.font
                     elide: Text.ElideRight
                     verticalAlignment: Text.AlignVCenter
+                }
+                background: Rectangle {
+                    color: highlighted ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
                 }
                 highlighted: control2.highlightedIndex === index
             }
@@ -243,7 +264,7 @@ Page {
                     context.lineTo(width, 0);
                     context.lineTo(width / 2, height);
                     context.closePath();
-                    context.fillStyle = "#000000";
+                    context.fillStyle = vzhledAplikace.textc;
                     context.fill();
                 }
             }
@@ -254,7 +275,7 @@ Page {
 
                 text: control2.displayText
                 font: control2.font
-                color: "#000000"
+                color: vzhledAplikace.textc
                 verticalAlignment: Text.AlignVCenter
                 elide: Text.ElideRight
             }
@@ -262,7 +283,9 @@ Page {
             background: Rectangle {
                 implicitWidth: 500
                 implicitHeight: 35
-                color: "#d4d4d4"
+                color: control2.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                border.color: vzhledAplikace.textc
+                border.width: 1
             }
 
             popup: Popup {
@@ -282,7 +305,7 @@ Page {
                 }
 
                 background: Rectangle {
-                    color: "#d4d4d4"
+                    color: vzhledAplikace.headbg
                 }
             }
         }
@@ -292,8 +315,17 @@ Page {
             y: 5
             width: 100
             height: 35
-            text: qsTr("Vybrat návěst")
             flat: true
+            Text{
+                text: qsTr("Vybrat návěst")
+                //color: vzhledAplikace.textc
+                font.pixelSize: 13
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                width: button6.width
+                height: button6.height
+                color: vzhledAplikace.textc
+            }
             MouseArea{
                 width: 100
                 height: 35
@@ -305,9 +337,9 @@ Page {
                 implicitWidth: 100
                 implicitHeight: 35
                 opacity: enabled ? 1 : 0.3
-                border.color: "#000000"
+                border.color: vzhledAplikace.textc
                 border.width: 1
-                color: button6.hovered ? "#f5f5f5" : "#d4d4d4"
+                color: button6.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.bg
                 radius: 0
             }
             MouseArea {
@@ -340,8 +372,8 @@ Page {
             height: 50}
             Rectangle{
                 Layout.fillHeight: true
-                Layout.fillWidth: true
-                y: 50
+                width: parent.width
+                y: 90
             RowLayout {
                 anchors.fill: parent
                 spacing: 0
@@ -353,6 +385,7 @@ Page {
                         anchors.fill: parent
                         spacing: 0
                         Rectangle {
+                            id: sigrect1
                             Layout.preferredWidth: signalrect.width / 2
                             Layout.fillHeight: true
                             Rectangle{
@@ -805,14 +838,15 @@ Page {
                            y: 8
                            text: qsTr("Název návěsti:")
                            font.pixelSize: 15
-                        font.bold: true
+                            font.bold: true
+                            color: vzhledAplikace.textc
                        }
                         Rectangle{
                         x: 8
                         width: parent.width - 15
                         height: 30
                         y: 35
-                        color: "#dddddd"
+                        color: vzhledAplikace.headbg
                         Text {
                             id: text7
                             text: "--------"
@@ -820,6 +854,7 @@ Page {
                             font.pixelSize: 15
                             verticalAlignment: Text.AlignVCenter
                             padding: 5
+                            color: vzhledAplikace.textc
                         }
                     }
 
@@ -831,13 +866,14 @@ Page {
                            font.pixelSize: 15
                            text: "Význam návěsti:"
                         font.bold: true
+                            color: vzhledAplikace.textc
                        }
                         Rectangle{
                         x: 8
                         y: 95
                         width: parent.width - 15
                         height: childrenRect.height
-                        color: "#dddddd"
+                        color: vzhledAplikace.headbg
                         Text {
                             id: text9
                             textFormat: TextEdit.RichText
@@ -846,6 +882,7 @@ Page {
                             font.pixelSize: 15
                             text: "--------"
                             padding: 5
+                            color: vzhledAplikace.textc
                         }
                     }
 
@@ -884,4 +921,5 @@ Page {
 }
 }
 }
-
+}
+}

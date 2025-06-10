@@ -16,23 +16,6 @@ Window {
     //switchtheme()
     vzhledAplikace.theme()
     }
-    Settings {
-            id: userSettings
-            property string theme: "light"
-            property int volume: 50
-        }
-    /*function switchtheme() {
-        if (xsettings.theme() == "tmavy")
-        {
-            vzhledAplikace.tmavy()
-            console.log("xxx")
-        }
-        else{
-            vzhledAplikace.svetly()
-            console.log("yyy")
-        }
-        console.log(xsettings.theme())
-    }*/
     VzhledAplikace
     {
         id: vzhledAplikace

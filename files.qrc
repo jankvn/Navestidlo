@@ -38,5 +38,6 @@
         <file>rychs.qml</file>
         <file>zaknav.qml</file>
         <file>VzhledAplikace.qml</file>
+        <file>db/ostatni.db</file>
     </qresource>
 </RCC>

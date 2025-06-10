@@ -38,10 +38,13 @@ qt_add_qml_module(appNavestidlo
         SOURCES settings.h settings.cpp
         SOURCES rychnavdata.h rychnavdata.cpp
         SOURCES
+        QML_FILES navest.qml
+        SOURCES
+        SOURCES sqlmodel.h sqlmodel.cpp
 )
 qt_add_resources(appNavestidlo "images" "db"
     PREFIX "/"
-    FILES images/home-light.png images/home-dark.png images/settings-dark.png images/settings-light.png images/logo.png images/neprnavic.png images/oznpicn.png images/rychsoustaic.png images/testy.png images/zaklnavic.png db/svetelna.db Main.qml zaknav.qml mainp.qml ostnav.qml oznp.qml rychs.qml aboutapp.qml VzhledAplikace.qml
+    FILES images/home-light.png images/home-dark.png images/settings-dark.png images/settings-light.png images/logo.png images/neprnavic.png images/oznpicn.png images/rychsoustaic.png images/testy.png images/zaklnavic.png db/svetelna.db db/ostatni.db Main.qml zaknav.qml mainp.qml ostnav.qml oznp.qml rychs.qml aboutapp.qml VzhledAplikace.qml
 
 )
 

@@ -1,6 +1,7 @@
 import QtQuick
 
 QtObject{
+   //#000000
     property color bg: "#FFFFFF"
     property color textc: "#212121"
     property color menubg: "#f5f5f5"

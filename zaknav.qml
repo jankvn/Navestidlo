@@ -8,7 +8,7 @@ import QtQml
 import QtQuick 2.0
 Page {
     id: root
-    anchors.fill: parent
+    //anchors.fill: parent
     Layout.fillWidth: true
     Layout.fillHeight: true
     property string myString: znd.xbarva()
@@ -56,19 +56,19 @@ Layout.fillHeight: true
                 id: control
                 width: 500
                 y: 5
-                textRole: "text"
                 anchors.horizontalCenter: parent.horizontalCenter
-                model: ListModel{
+                model: zaklnavesti
+                    ListModel{
                     id: zaklnavesti
-                    ListElement { text: "Vyberte prosím návěst..."; enabled: false}
-                    ListElement { text: "Stůj"; enabled: true}
-                    ListElement { text: "Volno"; enabled: true}
-                    ListElement { text: "Výstraha"; enabled: true}
-                    ListElement { text: "Opakování návěsti výstraha"; enabled: true}
-                    ListElement { text: "Jízda vlaku dovolena"; enabled: true}
-                    ListElement { text: "Přivolávací návěst"; enabled: true}
-                    ListElement { text: "Posun dovolen"; enabled: true}
-                    ListElement { text: "Posun zakázán"; enabled: true}
+                    ListElement { key: "Vyberte prosím návěst..."}
+                    ListElement { key: "Stůj"}
+                    ListElement { key: "Volno"}
+                    ListElement { key: "Výstraha"}
+                    ListElement { key: "Opakování návěsti výstraha"}
+                    ListElement { key: "Jízda vlaku dovolena"}
+                    ListElement { key: "Přivolávací návěst"}
+                    ListElement { key: "Posun dovolen"}
+                    ListElement { key: "Posun zakázán"}
                 }
                 onActivated: {
                     nav.stopblikej()
@@ -85,22 +85,19 @@ Layout.fillHeight: true
                     id: delegate
                     hoverEnabled: true
                     required property var model
-                    property int index
+                    required property int index
                     width: control.width
                     //width: control.width
                     contentItem: Text {
                         text: delegate.model[control.textRole]
-                        color: "#000000"
+                        color: vzhledAplikace.textc
                         font: control.font
                         elide: Text.ElideRight
                         verticalAlignment: Text.AlignVCenter
-                        //visible: delegate.model.enabled
                     }
-                    enabled: delegate.model.enabled
-                    //text: delegate.model.enabled
-                    //visible: delegate.model.enabled
-                    height: delegate.model.enabled ? implicitHeight : 0
-                    //opacity: delegate.model.enabled ? 1 : 0
+                    background: Rectangle {
+                        color: highlighted ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                    }
                     highlighted: control.highlightedIndex === index
                 }
                 MouseArea{
@@ -138,7 +135,7 @@ Layout.fillHeight: true
                         context.lineTo(width, 0);
                         context.lineTo(width / 2, height);
                         context.closePath();
-                        context.fillStyle = "#000000";
+                        context.fillStyle = vzhledAplikace.textc;
                         context.fill();
                     }
                 }
@@ -149,7 +146,7 @@ Layout.fillHeight: true
 
                     text: control.displayText
                     font: control.font
-                    color: "#000000"
+                    color: vzhledAplikace.textc
                     verticalAlignment: Text.AlignVCenter
                     elide: Text.ElideRight
                 }
@@ -157,27 +154,26 @@ Layout.fillHeight: true
                 background: Rectangle {
                     implicitWidth: 500
                     implicitHeight: 35
-                    color: "#d4d4d4"
+                    color: control.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                    border.color: vzhledAplikace.textc
+                    border.width: 1
                 }
 
                 popup: Popup {
                     id: combopopup
-                    y: control.height - 1
+                    y: control.height
                     width: control.width
                     height: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin)
                     padding: 1
-
                     contentItem: ListView {
                         clip: true
                         implicitHeight: contentHeight - 1
                         model: control.popup.visible ? control.delegateModel : null
                         currentIndex: control.highlightedIndex
-
                        ScrollIndicator.vertical: ScrollIndicator { }
                     }
-
                     background: Rectangle {
-                        color: "#d4d4d4"
+                        color: vzhledAplikace.headbg
                     }
                 }
             }}
@@ -368,12 +364,12 @@ Layout.fillHeight: true
 
                        Text {
                            id: text6
-                           x: 8
-                           y: 8
-                           text: qsTr("Název návěsti:")
-                           font.pixelSize: 15
-                        font.bold: true
-                                color: vzhledAplikace.textc
+                            x: 8
+                            y: 8
+                            text: qsTr("Název návěsti:")
+                            font.pixelSize: 15
+                            font.bold: true
+                            color: vzhledAplikace.textc
                        }
                         Rectangle{
                         x: 8

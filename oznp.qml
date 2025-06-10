@@ -9,7 +9,18 @@ Page {
         opacity: enabled ? 1 : 0.3
         color: "#ffffff"
     }
-
+    Rectangle {
+Layout.fillWidth: true
+Layout.fillHeight: true
+    GridLayout {
+        anchors.fill: parent
+        columns: 1
+        rowSpacing: 0
+        columnSpacing: 0
+        Rectangle {
+           color: vzhledAplikace.bg
+           height: root.height
+    width:root.width
     Rectangle {
         id: xsrectangle
         x: 0
@@ -17,7 +28,7 @@ Page {
         //width: 1000
         Layout.fillWidth: true
         height: 40
-        color: "#d4d4d4"
+        color: vzhledAplikace.headbg
         width: root.width
 
         Text {
@@ -28,6 +39,7 @@ Page {
             width: root.width
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
+            color: vzhledAplikace.textc
         }
     }
     Text {
@@ -37,6 +49,7 @@ Page {
         width: root.width
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
+        color: vzhledAplikace.textc
     }
     ListView {
         id: someListView
@@ -48,3 +61,4 @@ Page {
         }
     }
 }
+}}}
