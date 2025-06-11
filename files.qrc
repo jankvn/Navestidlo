@@ -39,5 +39,40 @@
         <file>zaknav.qml</file>
         <file>VzhledAplikace.qml</file>
         <file>db/ostatni.db</file>
+        <file>images/oznpasy/vyckavaci.png</file>
+        <file>images/oznpasy/vlozena.png</file>
+        <file>images/oznpasy/vjezdove.png</file>
+        <file>images/oznpasy/spadovistni.png</file>
+        <file>images/oznpasy/seradovaci.png</file>
+        <file>images/oznpasy/provlak.png</file>
+        <file>images/oznpasy/portal.png</file>
+        <file>images/oznpasy/oddilovenav.png</file>
+        <file>images/oznpasy/null.png</file>
+        <file>images/oznpasy/navposunvlak.png</file>
+        <file>images/oznpasy/kryci.png</file>
+        <file>images/oznpasy/cestove.png</file>
+        <file>images/oznpasy/ABkr.png</file>
+        <file>images/oznpasy/AB.png</file>
+        <file>images/navesti/zprava_doprava.png</file>
+        <file>images/navesti/zprava_doleva.png</file>
+        <file>images/navesti/zleva_doprava.png</file>
+        <file>images/navesti/zleva_doleva.png</file>
+        <file>images/navesti/vpravo.png</file>
+        <file>images/navesti/vlevo.png</file>
+        <file>images/navesti/stujn.png</file>
+        <file>images/navesti/stujd.png</file>
+        <file>images/navesti/stuj.png</file>
+        <file>images/navesti/sa2.png</file>
+        <file>images/navesti/sa1.png</file>
+        <file>images/navesti/primo.png</file>
+        <file>images/navesti/null.png</file>
+        <file>images/navesti/nameznikkonec.png</file>
+        <file>images/navesti/nameznik.png</file>
+        <file>images/navesti/mistozastaveni2.png</file>
+        <file>images/navesti/mistozastaveni.png</file>
+        <file>images/navesti/konecnastupiste.png</file>
+        <file>images/navesti/koncovnik.png</file>
+        <file>images/navesti/hranicnik.png</file>
+        <file>images/navesti/blizizast.png</file>
     </qresource>
 </RCC>

@@ -326,13 +326,6 @@ Layout.fillHeight: true
                 height: button6.height
                 color: vzhledAplikace.textc
             }
-            MouseArea{
-                width: 100
-                height: 35
-                hoverEnabled: true
-                cursorShape: Qt.OpenHandCursor
-                //onClicked: stackView.push("mainp.qml")
-            }
             background: Rectangle {
                 implicitWidth: 100
                 implicitHeight: 35

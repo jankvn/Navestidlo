@@ -12,6 +12,8 @@ qt_add_executable(appNavestidlo
     main.cpp
     ${app_icon_resource_windows}
 )
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 
 qt_add_qml_module(appNavestidlo
     URI Navestidlo
@@ -44,14 +46,69 @@ qt_add_qml_module(appNavestidlo
 )
 qt_add_resources(appNavestidlo "images" "db"
     PREFIX "/"
-    FILES images/home-light.png images/home-dark.png images/settings-dark.png images/settings-light.png images/logo.png images/neprnavic.png images/oznpicn.png images/rychsoustaic.png images/testy.png images/zaklnavic.png db/svetelna.db db/ostatni.db Main.qml zaknav.qml mainp.qml ostnav.qml oznp.qml rychs.qml aboutapp.qml VzhledAplikace.qml
-
+    FILES images/home-light.png
+    FILES images/home-dark.png
+    FILES images/settings-dark.png
+    FILES images/settings-light.png
+    FILES images/logo.png
+    FILES images/neprnavic.png
+    FILES images/oznpicn.png
+    FILES images/rychsoustaic.png
+    FILES images/oznpicn.png
+    FILES images/testy.png
+    FILES images/zaklnavic.png
+    FILES db/svetelna.db
+    FILES db/ostatni.db
+    FILES Main.qml
+    FILES zaknav.qml
+    FILES mainp.qml
+    FILES ostnav.qml
+    FILES oznp.qml
+    FILES rychs.qml
+    FILES aboutapp.qml
+    FILES VzhledAplikace.qml
+    FILES images/oznpasy/AB.png
+    FILES images/oznpasy/ABkr.png
+    FILES images/oznpasy/cestove.png
+    FILES images/oznpasy/kryci.png
+    FILES images/oznpasy/navposunvlak.png
+    FILES images/oznpasy/null.png
+    FILES images/oznpasy/oddilovenav.png
+    FILES images/oznpasy/portal.png
+    FILES images/oznpasy/provlak.png
+    FILES images/oznpasy/seradovaci.png
+    FILES images/oznpasy/spadovistni.png
+    FILES images/oznpasy/vjezdove.png
+    FILES images/oznpasy/vlozena.png
+    FILES images/oznpasy/vyckavaci.png
+    FILES images/navesti/blizizast.png
+    FILES images/navesti/hranicnik.png
+    FILES images/navesti/koncovnik.png
+    FILES images/navesti/konecnastupiste.png
+    FILES images/navesti/mistozastaveni.png
+    FILES images/navesti/mistozastaveni2.png
+    FILES images/navesti/nameznik.png
+    FILES images/navesti/nameznikkonec.png
+    FILES images/navesti/primo.png
+    FILES images/navesti/sa1.png
+    FILES images/navesti/sa2.png
+    FILES images/navesti/stuj.png
+    FILES images/navesti/vlevo.png
+    FILES images/navesti/vpravo.png
+    FILES images/navesti/zleva_doleva.png
+    FILES images/navesti/zleva_doprava.png
+    FILES images/navesti/zprava_doleva.png
+    FILES images/navesti/zprava_doprava.png
+    FILES
+    FILES
+    FILES
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 set_target_properties(appNavestidlo PROPERTIES
+    OUTPUT_NAME "Návěstidlo"
 #    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appNavestidlo
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}

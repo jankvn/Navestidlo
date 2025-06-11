@@ -33,40 +33,18 @@ int main(int argc, char *argv[])
     }
 
     // Setup model
-    SqlModel model;
-    model.setQueryString("SELECT id, nazev, ico FROM navestinepr");
+    SqlModel ostnav;
+    SqlModel oznp;
+    ostnav.setQueryString("SELECT id, nazev, ico FROM navestinepr");
+    oznp.setQueryString("SELECT id, nazev, ico FROM oznp");
 
 
 
 
     QQmlApplicationEngine engine;
-    /*QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(QCoreApplication::applicationDirPath().append("/ostatni.db"));
-    db.open();*/
-    //QSqlQueryModel *model = new SqlQueryModel();
-    //QSqlQueryModel *model = new SqlQueryModel(this);
-    //model->setQuery("SELECT id, nazev, ico FROM navestinepr");
-    /*if (!db.open()) {
-        qDebug() << "Failed to open database!";
-    } else {
-        qDebug() << "OK!";
-       //model->setQuery("SELECT id, nazev, ico FROM navestinepr");
-        for (int i = 0; i < model->rowCount(); ++i) {
-            int id = model->record(i).value("id").toInt();
-            QString name = model->record(i).value("nazev").toString();
-            QString ico = model->record(i).value("ico").toString();
-            qDebug() << "id:" << id << ", name:" << name << "ico:" << ico;
-        }
-    }
-    while (model->canFetchMore()) {
-        model->fetchMore();
-    }*/
 
-    //model->setQuery("SELECT id, nazev, ico FROM navestinepr");
-
-    //QSqlQueryModel *oznpx = new oznp();
-    //oznpx->setQuery("SELECT someRoleName, otherRoleName FROM some_table");
-    engine.rootContext()->setContextProperty("sqlModel", &model);
+    engine.rootContext()->setContextProperty("xostnav", &ostnav);
+    engine.rootContext()->setContextProperty("xoznp", &oznp);
     engine.rootContext()->setContextProperty("znd", &znd);
     engine.rootContext()->setContextProperty("rnd", &rnd);
     engine.rootContext()->setContextProperty("stringProcessor", &splitstrc);
