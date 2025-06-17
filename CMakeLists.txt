@@ -36,13 +36,14 @@ qt_add_qml_module(appNavestidlo
         SOURCES
         SOURCES splitstr.h splitstr.cpp
         QML_FILES VzhledAplikace.qml
-        QML_FILES AppTheme.qml
+        QML_FILES
         SOURCES settings.h settings.cpp
         SOURCES rychnavdata.h rychnavdata.cpp
         SOURCES
         QML_FILES navest.qml
         SOURCES
         SOURCES sqlmodel.h sqlmodel.cpp
+        SOURCES ostnavdata.h ostnavdata.cpp
 )
 qt_add_resources(appNavestidlo "images" "db"
     PREFIX "/"
@@ -54,7 +55,6 @@ qt_add_resources(appNavestidlo "images" "db"
     FILES images/neprnavic.png
     FILES images/oznpicn.png
     FILES images/rychsoustaic.png
-    FILES images/oznpicn.png
     FILES images/testy.png
     FILES images/zaklnavic.png
     FILES db/svetelna.db
@@ -66,6 +66,7 @@ qt_add_resources(appNavestidlo "images" "db"
     FILES oznp.qml
     FILES rychs.qml
     FILES aboutapp.qml
+    FILES navest.qml
     FILES VzhledAplikace.qml
     FILES images/oznpasy/AB.png
     FILES images/oznpasy/ABkr.png
@@ -93,15 +94,34 @@ qt_add_resources(appNavestidlo "images" "db"
     FILES images/navesti/sa1.png
     FILES images/navesti/sa2.png
     FILES images/navesti/stuj.png
+    FILES images/navesti/stujd.png
+    FILES images/navesti/stujn.png
     FILES images/navesti/vlevo.png
     FILES images/navesti/vpravo.png
     FILES images/navesti/zleva_doleva.png
     FILES images/navesti/zleva_doprava.png
     FILES images/navesti/zprava_doleva.png
     FILES images/navesti/zprava_doprava.png
-    FILES
-    FILES
-    FILES
+    FILES images/vyhybky/primo.png
+    FILES images/vyhybky/vlevo.png
+    FILES images/vyhybky/vpravo.png
+    FILES images/vyhybky/zleva_doleva.png
+    FILES images/vyhybky/zleva_doprava.png
+    FILES images/vyhybky/zprava_doleva.png
+    FILES images/vyhybky/zprava_doprava.png
+    FILES images/vyhplan/ovlevo.png
+    FILES images/vyhplan/ovpravo.png
+    FILES images/vyhplan/ozleva.png
+    FILES images/vyhplan/ozprava.png
+    FILES images/vyhplan/pdoprava.png
+    FILES images/vyhplan/pprimo.png
+    FILES images/vyhplan/pvlevo.png
+    FILES images/vyhplan/pzleva.png
+    FILES images/vyhplan/pzprava.png
+    FILES images/vyhplan/pzpravadoleva.png
+    FILES images/vyhplan/pzpravadoprava.png
+    FILES images/vyhplan/zlevadolevap.png
+    FILES images/vyhplan/zlevadopravap.png
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

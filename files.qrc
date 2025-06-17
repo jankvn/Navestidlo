@@ -74,5 +74,6 @@
         <file>images/navesti/koncovnik.png</file>
         <file>images/navesti/hranicnik.png</file>
         <file>images/navesti/blizizast.png</file>
+        <file>navest.qml</file>
     </qresource>
 </RCC>

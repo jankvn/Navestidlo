@@ -9,7 +9,7 @@ Window {
     minimumWidth: 1024
     minimumHeight: 768
     visible: true
-    title: "Návěstidlo na QT/QML"
+    title: "Návěstidlo"
     Component.onCompleted:
     {
     xsettings.vytahninastaveni()
@@ -67,7 +67,7 @@ Window {
                             font.pixelSize: 13
                             font.bold: true
                             anchors.bottom: parent.bottom
-                            anchors.bottomMargin: 55
+                            anchors.bottomMargin: 60
                         }
 
                         Image {
@@ -84,17 +84,17 @@ Window {
                             x: 5
                             y: 85
                             width: 190
-                            height: 30
+                            height: 40
                             visible: true
                             display: AbstractButton.TextBesideIcon
                             leftPadding: 8
-                            topPadding: 0
+                            topPadding: 5
                             highlighted: false
                             checkable: false
                             flat: true
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("mainp.qml")
@@ -131,13 +131,13 @@ Window {
                         Button {
                             id: button1
                             x: 5
-                            y: 120
+                            y: 125
                             width: 190
                             visible: true
                             display: AbstractButton.TextBesideIcon
-                            height: 30
+                            height: 40
                             leftPadding: 8
-                            topPadding: 0
+                            topPadding: 5
                             flat: true
                             contentItem: Item {
                                 Row {
@@ -159,7 +159,7 @@ Window {
                             }
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("zaknav.qml")
@@ -178,12 +178,12 @@ Window {
                         Button {
                             id: button2
                             x: 5
-                            y: 155
+                            y: 165
                             width: 190
-                            height: 30
+                            height: 40
                             flat: true
                             leftPadding: 8
-                            topPadding: 0
+                            topPadding: 5
                             contentItem: Item {
                                 Row {
                                     Image {
@@ -204,7 +204,7 @@ Window {
                             }
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("rychs.qml")
@@ -223,12 +223,12 @@ Window {
                         Button {
                             id: button3
                             x: 5
-                            y: 190
+                            y: 205
                             width: 190
-                            height: 30
+                            height: 40
                             flat: true
                             leftPadding: 8
-                            topPadding: 0
+                            topPadding: 5
                             contentItem: Item {
                                 Row {
                                     Image {
@@ -249,7 +249,7 @@ Window {
                             }
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("oznp.qml")
@@ -268,11 +268,11 @@ Window {
                         Button {
                             id: button4
                             x: 5
-                            y: 225
+                            y: 245
                             width: 190
                             leftPadding: 8
-                            topPadding: 0
-                            height: 30
+                            topPadding: 5
+                            height: 40
                             flat: true
                             contentItem: Item {
                                 Row {
@@ -294,7 +294,7 @@ Window {
                             }
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("ostnav.qml")
@@ -314,8 +314,8 @@ Window {
                             x: 5
                             width: 190
                             leftPadding: 8
-                            topPadding: 0
-                            height: 30
+                            topPadding: 5
+                            height: 40
                             anchors.bottom: parent.bottom
                             anchors.bottomMargin: 15
                             flat: true
@@ -339,7 +339,7 @@ Window {
                             }
                             MouseArea {
                                    width: 190
-                                   height: 30
+                                   height: 40
                                    hoverEnabled: true
                                    cursorShape: Qt.OpenHandCursor
                                    onClicked: stackView.push("aboutapp.qml")

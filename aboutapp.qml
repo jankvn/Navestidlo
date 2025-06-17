@@ -17,9 +17,9 @@ Page {
     {
         if(xsettings.theme() == "tmavy")
         {
-            switch1.checked = true
+            control.currentIndex = 1
         }else {
-            switch1.checked = false
+            control.currentIndex = 0
         }
     }
     Rectangle {
@@ -114,7 +114,7 @@ width:root.width
                 Text {
                     x: 10
                     y: 155
-                    text: qsTr("Režim aplikace: (funkce není zatím plně implementována!)")
+                    text: qsTr("Režim aplikace:")
                     font.pixelSize: 15
                     font.bold: true
                     color: vzhledAplikace.textc
@@ -175,7 +175,127 @@ width:root.width
                         }
                     }
                 }
-                Switch {
+                ComboBox {
+                    id: control
+                    width: 300
+                    x: 10
+                    y: 150
+                    //anchors.horizontalCenter: parent.horizontalCenter
+                    model: zaklnavesti
+                        ListModel{
+                        id: zaklnavesti
+                        ListElement { key: "Světlý (výchozí)"}
+                        ListElement { key: "Tmavý"}
+                    }
+                    onActivated: {
+                        if (control.currentIndex == 0){
+                            xsettings.nastaveni("svetly")
+                            xsettings.vytahninastaveni()
+                            vzhledAplikace.theme()
+                        }
+                        else{
+                            xsettings.nastaveni("tmavy")
+                            xsettings.vytahninastaveni()
+                            vzhledAplikace.theme()
+                        }
+                    }
+                    delegate: ItemDelegate {
+                        id: delegate
+                        hoverEnabled: true
+                        required property var model
+                        required property int index
+                        width: control.width
+                        //width: control.width
+                        contentItem: Text {
+                            text: delegate.model[control.textRole]
+                            color: vzhledAplikace.textc
+                            font: control.font
+                            elide: Text.ElideRight
+                            verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: highlighted ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                        }
+                        highlighted: control.highlightedIndex === index
+                    }
+                    MouseArea{
+                        property bool overridePressed: false
+                                readonly property bool effectivePressed: (pressed || overridePressed) && containsMouse
+                                anchors.fill: parent
+                                hoverEnabled: true
+                                cursorShape: Qt.OpenHandCursor
+                                onClicked:{
+                                    if(combopopup.opened == true){
+                                        combopopup.close()
+                                    }
+                                    else{
+                                        combopopup.open()
+                                    }
+                        }
+                        }
+
+                    indicator: Canvas {
+                        id: canvas
+                        x: control.width - width - control.rightPadding
+                        y: control.topPadding + (control.availableHeight - height) / 2
+                        width: 12
+                        height: 8
+                        contextType: "2d"
+
+                        Connections {
+                            target: control
+                            function onPressedChanged() { canvas.requestPaint(); }
+                        }
+
+                        onPaint: {
+                            context.reset();
+                            context.moveTo(0, 0);
+                            context.lineTo(width, 0);
+                            context.lineTo(width / 2, height);
+                            context.closePath();
+                            context.fillStyle = vzhledAplikace.textc;
+                            context.fill();
+                        }
+                    }
+
+                    contentItem: Text {
+                        leftPadding: 5
+                        rightPadding: control.indicator.width + control.spacing
+
+                        text: control.displayText
+                        font: control.font
+                        color: vzhledAplikace.textc
+                        verticalAlignment: Text.AlignVCenter
+                        elide: Text.ElideRight
+                    }
+
+                    background: Rectangle {
+                        implicitWidth: 500
+                        implicitHeight: 35
+                        color: control.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.headbg
+                        border.color: vzhledAplikace.textc
+                        border.width: 1
+                    }
+
+                    popup: Popup {
+                        id: combopopup
+                        y: control.height
+                        width: control.width
+                        height: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin)
+                        padding: 1
+                        contentItem: ListView {
+                            clip: true
+                            implicitHeight: contentHeight - 1
+                            model: control.popup.visible ? control.delegateModel : null
+                            currentIndex: control.highlightedIndex
+                           ScrollIndicator.vertical: ScrollIndicator { }
+                        }
+                        background: Rectangle {
+                            color: vzhledAplikace.headbg
+                        }
+                    }
+                }}
+                /*Switch {
                     id: switch1
                     x: 10
                     y: 150
@@ -200,12 +320,11 @@ width:root.width
                             vzhledAplikace.theme()
                         }
                     }
-                }
+                }*/
             }
             }
         }
 
     }
-}
 }
 }

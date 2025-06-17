@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QSettings>
 #include <QList>
-#include <iostream>
+#include "ostnavdata.h"
 #include <QSqlDatabase>
 #include "zaknavdata.h"
 #include "rychnavdata.h"
@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
     rychnavdata rnd;
     splitstr splitstrc;
     settings set;
+    ostnavdata ond;
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
     db.setDatabaseName(QCoreApplication::applicationDirPath().append("/ostatni.db"));
     if (!db.open()) {
@@ -44,6 +45,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     engine.rootContext()->setContextProperty("xostnav", &ostnav);
+    engine.rootContext()->setContextProperty("ond", &ond);
     engine.rootContext()->setContextProperty("xoznp", &oznp);
     engine.rootContext()->setContextProperty("znd", &znd);
     engine.rootContext()->setContextProperty("rnd", &rnd);

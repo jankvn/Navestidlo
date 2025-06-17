@@ -22,7 +22,7 @@ Page {
             Text {
                 id: text1
                 y: 8
-                text: qsTr("Aplikace návěstidlo na QT/QML")
+                text: qsTr("Aplikace návěstidlo")
                 font.pixelSize: 18
                 width: root.width
                 horizontalAlignment: Text.AlignHCenter

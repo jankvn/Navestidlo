@@ -383,7 +383,7 @@ Layout.fillHeight: true
                             Layout.fillHeight: true
                             Rectangle{
                                 y: 10
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 50
                                 border.color: "#7d7d7d"
@@ -405,7 +405,7 @@ Layout.fillHeight: true
                             Rectangle{
                                 y: 65
                                 id: nav
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 350
                                 border.color: "#7d7d7d"
@@ -571,7 +571,7 @@ Layout.fillHeight: true
                             }
                             Rectangle{
                                 y: 420
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 50
                                 border.color: "#7d7d7d"
@@ -618,7 +618,7 @@ Layout.fillHeight: true
                             visible: false
                             Rectangle{
                                 y: 10
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 50
                                 border.color: "#7d7d7d"
@@ -640,7 +640,7 @@ Layout.fillHeight: true
                             Rectangle{
                                 y: 65
                                 id: xnav
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 350
                                 border.color: "#7d7d7d"
@@ -782,7 +782,7 @@ Layout.fillHeight: true
                             }
                             Rectangle{
                                 y: 420
-                                color: "#000000"
+                                color: "#303030"
                                 width: 70
                                 height: 50
                                 border.color: "#7d7d7d"

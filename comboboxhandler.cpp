@@ -1,13 +1,10 @@
 #include "comboboxhandler.h"
 #include "zaknavdata.h"
 #include "rychnavdata.h"
-#include <stdio.h>
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
-#include <string>
-#include <iostream>
 #include <QCoreApplication>
 ComboBoxHandler::ComboBoxHandler(QObject *parent)
     : QObject{parent}
