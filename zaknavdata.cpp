@@ -4,65 +4,72 @@
 #include "sqlite3.h"
 #include <QCoreApplication>
 
-QString xtext = "";
-QString xpp = "";
-QString abarva = "";
-QString blikxt = "";
-QString blikxb = "";
-//QQmlApplicationEngine engine;
-zaknavdata::zaknavdata(QObject *parent): QObject{parent}
+QString zxnazev = "";
+QString zxbarva = "";
+QString zxhindct = "";
+QString zxblikr = "";
+QString zxblik1 = "";
+QString zxblik2 = "";
+QString zxdolindc = "";
+QString zxlinka1 = "";
+QString zxlinka2 = "";
+QString zxvyznam = "";
+zaknavdata::zaknavdata(QObject *parent)
+    : QObject{parent}
 {}
-void zaknavdata::nazev(QString sxnazev, QString sxpopis)
+
+void zaknavdata::xdata(QString sxnazev, QString sxbarva, QString sxhindct,QString sxblikr,QString sxblik1, QString sxblik2, QString sxdolindc, QString sxlinka1, QString sxlinka2, QString sxvyznam)
 {
-    //QString m_text;
-    /*if (m_text == sxnazev)
-        return;
-    m_text = sxnazev;*/
-    //xtext = sxnazev;
-    //emit axnazev(sxnazev);
-    //axnazev(sxnazev);
-    xtext = sxnazev;
-    xpp = sxpopis;
-    //emit valueChanged(xtext, xpp);
+    zxnazev = sxnazev;
+    zxbarva = sxbarva;
+    zxhindct = sxhindct;
+    zxblikr = sxblikr;
+    zxblik1 = sxblik1;
+    zxblik2 = sxblik2;
+    zxdolindc = sxdolindc;
+    zxlinka1 = sxlinka1;
+    zxlinka2 = sxlinka2;
+    zxvyznam = sxvyznam;
+    qDebug() << "Nazev: " << sxbarva;
 }
-void zaknavdata::barva(QString sxbarva, QString sxblikt, QString sxblikb)
+
+QString zaknavdata::nazev()
 {
-    //QString m_text;
-    /*if (m_text == sxnazev)
-        return;
-    m_text = sxnazev;*/
-    //xtext = sxnazev;
-    //emit axnazev(sxnazev);
-    //axnazev(sxnazev);
-    abarva = sxbarva;
-    blikxt = sxblikt;
-    blikxb = sxblikb;
-    qDebug() << "Nazev: " << abarva;
-    qDebug() << "Nazev: " << blikxt;
-    qDebug() << "Nazev: " << blikxb;
-    //emit valueChanged(xtext, xpp);
+    return zxnazev;
 }
-QString zaknavdata::xnazev()
+QString zaknavdata::barva()
 {
-    return xtext;
+    return zxbarva;
 }
-QString zaknavdata::xpopis()
+QString zaknavdata::hindct()
 {
-    return xpp;
+    return zxhindct;
 }
-QString zaknavdata::xbarva()
+QString zaknavdata::blikr()
 {
-    return abarva;
+    return zxblikr;
 }
-QString zaknavdata::xblikt()
+QString zaknavdata::blik1()
 {
-    return blikxt;
+    return zxblik1;
 }
-QString zaknavdata::xblikb()
+QString zaknavdata::blik2()
 {
-    return blikxb;
+    return zxblik2;
 }
-/*void zaknavdata::popis(QString xpopis)
+QString zaknavdata::dolindc()
 {
-    qDebug() << "AHOJ!";
-}*/
+    return zxdolindc;
+}
+QString zaknavdata::linka1()
+{
+    return zxlinka1;
+}
+QString zaknavdata::linka2()
+{
+    return zxlinka2;
+}
+QString zaknavdata::vyznam()
+{
+    return zxvyznam;
+}

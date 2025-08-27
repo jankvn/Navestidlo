@@ -90,17 +90,35 @@ Page {
 
         }
         ListView {
-            id:lv
-                model: xostnav
-                //anchors.fill: parent
-                height: parent.height
-                anchors.fill: parent
-                Layout.fillWidth: true
-                displayMarginBeginning: 40
+            id: lv
 
+            anchors.fill: parent
+            model: xostnav
+            interactive: true
+            cacheBuffer: 100
+
+            WheelHandler {
+                id: wheelHandler
+                target: lv
+                orientation: Qt.Vertical
+                property real scrollStep: 100  // Větší = rychlejší scroll
+
+                onWheel: (event) => {
+                    let deltaY = event.angleDelta.y !== 0
+                                 ? event.angleDelta.y
+                                 : event.pixelDelta.y;
+
+                    // Výpočet posunu (scrollStep = jak rychle)
+                    let newY = lv.contentY - (deltaY / 120) * scrollStep;
+
+                    // Omezení posunu na platný rozsah
+                    lv.contentY = Math.max(0, Math.min(newY, lv.contentHeight - lv.height));
+
+                    // Zamezíme předání eventu dál
+                    event.accepted = true;
+                }
+            }
                 //displayMarginEnd: 40
-                    spacing: 10
-                    cacheBuffer: 100
                     delegate: Item {
                         width: parent.width
                         Layout.fillWidth: true
@@ -109,11 +127,30 @@ Page {
                             Text { text: model.id + ": " + model.nazev }
                         }*/
                         Rectangle {
-                            //: parent.width
+                            id: navbtn
+                            property bool hovered: false
+
                             width: parent.width
                             height: 150
                             Layout.fillWidth: true
-                            color: vzhledAplikace.bg
+
+                            color: hovered
+                                ? vzhledAplikace.buttonhover
+                                : (index % 2 === 0 ? vzhledAplikace.bg : vzhledAplikace.headbg)
+
+                            MouseArea {
+                                anchors.fill: parent
+                                hoverEnabled: true
+                                cursorShape: Qt.OpenHandCursor
+
+                                onEntered: navbtn.hovered = true
+                                onExited: navbtn.hovered = false
+
+                                onClicked: {
+                                    stackView.push("navest.qml", { nid: model.id })
+                                }
+                            }
+                        }
 
                                 Column {
                                     id: column
@@ -143,49 +180,20 @@ Page {
                                     }}
                                 Column {
                                     id: column2
-                                    //x:150
-                                    y: 50
+
+                                    y: 0
                                     anchors.right: parent.right
                                     anchors.rightMargin: 15
                                     width: 150
-                                    height: 100
-                                    Button{
-                                        id: navvic
-                                        y: 50
-                                        width: 100
-                                        height: 50
-                                        flat: true
-                                        Text{
-                                            text: qsTr("Popis")
-                                            //color: vzhledAplikace.textc
-                                            font.pixelSize: 13
-                                            horizontalAlignment: Text.AlignHCenter
-                                            verticalAlignment: Text.AlignVCenter
-                                            width: navvic.width
-                                            height: navvic.height
-                                            color: vzhledAplikace.textc
-                                        }
-                                        MouseArea {
-                                               width: 100
-                                               height: 50
-                                               hoverEnabled: true
-                                               cursorShape: Qt.OpenHandCursor
-                                               onClicked:
-                                            {
-                                                   //stackView.push("navest.qml")
-                                                   stackView.push("navest.qml", { nid: model.id })
-                                                   //xnavest.ostnavd()
-                                               }
-                                           }
-                                        background: Rectangle {
-                                            implicitWidth: 100
-                                            implicitHeight: 40
-                                            opacity: enabled ? 1 : 0.3
-                                            border.color: vzhledAplikace.textc
-                                            border.width: 1
-                                            color: navvic.hovered ? vzhledAplikace.buttonhover : vzhledAplikace.menubg
-                                        }
-                                    }
+                                    height: 150
+                                    Text {
+                                                anchors.centerIn: parent
+                                                text: ">"
+                                                font.pixelSize: 28
+                                                color: vzhledAplikace.textc
+                                                font.bold: true
+                                            }
+
 
                                     }
 
@@ -203,5 +211,4 @@ Page {
 
 
     }
-}
 }

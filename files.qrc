@@ -75,5 +75,8 @@
         <file>images/navesti/hranicnik.png</file>
         <file>images/navesti/blizizast.png</file>
         <file>navest.qml</file>
+        <file>images/navesti/poszak.png</file>
+        <file>images/navesti/poszak_den.png</file>
+        <file>images/navesti/poszak_noc.png</file>
     </qresource>
 </RCC>

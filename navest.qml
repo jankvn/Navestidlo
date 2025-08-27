@@ -160,19 +160,18 @@ Layout.fillHeight: true
                                         horizontalAlignment: Text.AlignHCenter
                                         verticalAlignment: Text.AlignVCenter
                                     }
-                                Image {
-                                     y: 40
-                                    id: xico1
-                                    //source: "qrc:/images/navesti/"+ico+".png"
-                                    width: parent.width
-                                    height: 100
-                                    //anchors.centerIn: parent
-                                    fillMode: Image.PreserveAspectFit
-                                    horizontalAlignment: Text.AlignHCenter
-                                }
+                                    Image {
+                                        id: xico1
+                                        width: 250
+                                        height: 120
+                                        fillMode: Image.PreserveAspectFit
+
+                                        anchors.horizontalCenter: parent.horizontalCenter  // horizontálně vycentrované
+                                        y: 40  // vertikální pozice zůstává
+                                    }
                                     Text {
                                         visible: false
-                                        y: 140
+                                        y: 170
                                         width: parent.width
                                         height: 30
                                         id: nocnadpis
@@ -182,14 +181,24 @@ Layout.fillHeight: true
                                         horizontalAlignment: Text.AlignHCenter
                                         verticalAlignment: Text.AlignVCenter
                                     }
-                                Image {
+                               /* Image {
                                         y: 170
                                        id: xico2
-                                       width: parent.width
-                                       height: 100
+                                        width: 250
+                                       //width: parent.width
+                                       height: 240
                                        fillMode: Image.PreserveAspectFit
                                        horizontalAlignment: Text.AlignHCenter
-                                }
+                                }*/
+                                    Image {
+                                        id: xico2
+                                        width: 250
+                                        height: 240
+                                        fillMode: Image.PreserveAspectFit
+
+                                        anchors.horizontalCenter: parent.horizontalCenter  // horizontálně vycentrované
+                                        y: 200  // vertikální pozice zůstává
+                                    }
                                 Rectangle{
                                     id: samovratcont
                                     width: 160

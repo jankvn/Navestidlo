@@ -15,24 +15,20 @@ class zaknavdata : public QObject
     //QString m_text;
 public:
     explicit zaknavdata(QObject *parent = nullptr);
-    using QObject::QObject;
-    QString text() const{
-        //return m_text;
-    }
-    /*Q_INVOKABLE QStringList splitString(const QString &input, const QString &delimiter) {
-        return input.split(delimiter);*/
 
 signals:
-    void vypsatdata(QString yxnazev, QString yxpopis);
 public slots:
-    void nazev(QString sxnazev, QString sxpopis);
-    void barva(QString sxbarva, QString sxblikt, QString sxblikb);
-    QString xnazev();
-    QString xpopis();
-    QString xbarva();
-    QString xblikt();
-    QString xblikb();
-
+    void xdata(QString sxnazev, QString sxbarva, QString sxhindct,QString sxblikr,QString sxblik1, QString sxblik2, QString sxdolindc, QString sxlinka1, QString sxlinka2, QString sxvyznam);
+    QString nazev();
+    QString barva();
+    QString hindct();
+    QString blikr();
+    QString blik1();
+    QString blik2();
+    QString dolindc();
+    QString linka1();
+    QString linka2();
+    QString vyznam();
 };
 
 #endif // ZAKNAVDATA_H

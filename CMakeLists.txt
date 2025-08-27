@@ -20,30 +20,25 @@ qt_add_qml_module(appNavestidlo
     VERSION 0.6
     QML_FILES
         Main.qml
-        QML_FILES
-        RESOURCES files.qrc
-        QML_FILES zaknav.qml
-        QML_FILES mainp.qml
-        QML_FILES rychs.qml
-        QML_FILES oznp.qml
-        QML_FILES ostnav.qml
-        QML_FILES aboutapp.qml
-        SOURCES
-        SOURCES
-        SOURCES zaknavdata.h zaknavdata.cpp
-        SOURCES
-        SOURCES comboboxhandler.h comboboxhandler.cpp
-        SOURCES
-        SOURCES splitstr.h splitstr.cpp
-        QML_FILES VzhledAplikace.qml
-        QML_FILES
-        SOURCES settings.h settings.cpp
-        SOURCES rychnavdata.h rychnavdata.cpp
-        SOURCES
-        QML_FILES navest.qml
-        SOURCES
-        SOURCES sqlmodel.h sqlmodel.cpp
-        SOURCES ostnavdata.h ostnavdata.cpp
+        zaknav.qml
+        mainp.qml
+        rychs.qml
+        oznp.qml
+        ostnav.qml
+        aboutapp.qml
+        VzhledAplikace.qml
+        navest.qml
+    RESOURCES
+        files.qrc
+    SOURCES
+        zaknavdata.h zaknavdata.cpp
+        comboboxhandler.h comboboxhandler.cpp
+        splitstr.h splitstr.cpp
+        settings.h settings.cpp
+        rychnavdata.h rychnavdata.cpp
+        sqlmodel.h sqlmodel.cpp
+        ostnavdata.h ostnavdata.cpp
+        RESOURCES db/main.db
 )
 qt_add_resources(appNavestidlo "images" "db"
     PREFIX "/"
@@ -102,6 +97,9 @@ qt_add_resources(appNavestidlo "images" "db"
     FILES images/navesti/zleva_doprava.png
     FILES images/navesti/zprava_doleva.png
     FILES images/navesti/zprava_doprava.png
+    FILES images/navesti/poszak.png
+    FILES images/navesti/poszak_den.png
+    FILES images/navesti/poszak_noc.png
     FILES images/vyhybky/primo.png
     FILES images/vyhybky/vlevo.png
     FILES images/vyhybky/vpravo.png
@@ -128,7 +126,6 @@ qt_add_resources(appNavestidlo "images" "db"
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 set_target_properties(appNavestidlo PROPERTIES
-    OUTPUT_NAME "Návěstidlo"
 #    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appNavestidlo
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -146,5 +143,4 @@ install(TARGETS appNavestidlo
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-    DESTINATION bin
 )

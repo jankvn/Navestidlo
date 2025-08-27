@@ -67,9 +67,18 @@ width:root.width
                 Layout.preferredWidth: parent.width / 2
                 Layout.fillHeight: true
                 Text {
-                    id: text2
+                    id: text10
                     x: 10
                     y: 10
+                    text: qsTr("Základní informace")
+                    font.pixelSize: 18
+                    font.bold: true
+                    color: vzhledAplikace.textc
+                }
+                Text {
+                    id: text2
+                    x: 20
+                    y: 45
                     text: qsTr("Autor:")
                     font.pixelSize: 15
                     font.bold: true
@@ -77,8 +86,8 @@ width:root.width
                 }
                 Text {
                     id: text3
-                    x: 10
-                    y: 35
+                    x: 20
+                    y: 70
                     text: qsTr("Verze:")
                     font.pixelSize: 15
                     font.bold: true
@@ -86,8 +95,8 @@ width:root.width
                 }
                 Text {
                     id: text4
-                    x: 10
-                    y: 60
+                    x: 20
+                    y: 95
                     text: qsTr("Odkaz na Github:")
                     font.pixelSize: 15
                     font.bold: true
@@ -95,25 +104,41 @@ width:root.width
                 }
                 Text {
                     id: text5
-                    x: 10
-                    y: 85
+                    x: 20
+                    y: 120
                     text: qsTr("Webová verze:")
                     font.pixelSize: 15
                     font.bold: true
                     color: vzhledAplikace.textc
                 }
                 Text {
-                    id: text10
                     x: 10
-                    y: 120
+                    y: 155
+                    text: qsTr("Zdroje")
+                    font.pixelSize: 18
+                    font.bold: true
+                    color: vzhledAplikace.textc
+                }
+                Text {
+                    x: 20
+                    y: 190
+                    text: qsTr("Informace o návěstech: (název, popis apod.)")
+                    font.pixelSize: 15
+                    font.bold: true
+                    color: vzhledAplikace.textc
+                }
+                Text {
+                    id: text12
+                    x: 10
+                    y: 220
                     text: qsTr("Nastavení")
                     font.pixelSize: 18
                     font.bold: true
                     color: vzhledAplikace.textc
                 }
                 Text {
-                    x: 10
-                    y: 155
+                    x: 20
+                    y: 255
                     text: qsTr("Režim aplikace:")
                     font.pixelSize: 15
                     font.bold: true
@@ -124,25 +149,51 @@ width:root.width
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 Text {
-                    id: text6
                     x: 10
-                    y: 10
-                    text: qsTr("Johan5140")
+                    y: 45
+                    text: qsTr("jankvn")
                     font.pixelSize: 15
                     color: vzhledAplikace.textc
+                    font.underline: true
+                    MouseArea{
+                        id: mouseHyperlinkArea0
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: Qt.PointingHandCursor
+                        onClicked: {
+                            Qt.openUrlExternally("https://github.com/jankvn");
+                        }
+                    }
                 }
                 Text {
                     id: text7
                     x: 10
-                    y: 35
-                    text: qsTr("0.7.3 (vývojová verze)")
+                    y: 70
+                    text: qsTr("0.7.7 - OS: " + osVersion)
                     font.pixelSize: 15
                     color: vzhledAplikace.textc
                 }
                 Text {
+                    x: 290
+                    y: 70
+                    font.pixelSize: 15
+                    text: "(nahlásit chybu)"
+                    font.underline: true
+                    color: vzhledAplikace.textc
+                    MouseArea{
+                        id: mouseHyperlinkArea23
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: Qt.PointingHandCursor
+                        onClicked: {
+                            Qt.openUrlExternally("https://navestidlo.kavjan.cz/?stranka=chyby");
+                        }
+                    }
+                }
+                Text {
                     id: text8
                     x: 10
-                    y: 60
+                    y: 95
                     font.pixelSize: 15
                     text: "Stránka aplikace na github.com"
                     font.underline: true
@@ -153,16 +204,16 @@ width:root.width
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
                         onClicked: {
-                            Qt.openUrlExternally("https://github.com/Johan5140/Navestidlo");
+                            Qt.openUrlExternally("https://github.com/jankvn/Navestidlo");
                         }
                     }
                 }
                 Text {
                     id: text9
                     x: 10
-                    y: 85
+                    y: 120
                     font.pixelSize: 15
-                    text: "*Nefunkční odkaz"
+                    text: "Webová verze aplikace"
                     color: vzhledAplikace.textc
                     font.underline: true
                     MouseArea{
@@ -171,7 +222,26 @@ width:root.width
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
                         onClicked: {
+                            Qt.openUrlExternally("https://navestidlo.kavjan.cz/");
+                        }
+                    }
+                }
+                Text {
+                    id: text11
+                    x: 10
+                    y: 190
+                    font.pixelSize: 15
+                    text: "SŽ D1 (Správa železenic, s. o. - platnost od 14. 12. 2025)"
+                    color: vzhledAplikace.textc
+                    font.underline: true
+                    MouseArea{
+                        id: mouseHyperlinkArea3
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: Qt.PointingHandCursor
+                        onClicked: {
                             // to do something on clicking the link
+                            Qt.openUrlExternally("https://provoz.spravazeleznic.cz/Portal/ViewDirective.aspx?oid=2255429");
                         }
                     }
                 }
@@ -179,7 +249,7 @@ width:root.width
                     id: control
                     width: 300
                     x: 10
-                    y: 150
+                    y: 250
                     //anchors.horizontalCenter: parent.horizontalCenter
                     model: zaklnavesti
                         ListModel{

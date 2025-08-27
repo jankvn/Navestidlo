@@ -99,6 +99,27 @@ Page {
                 //displayMarginEnd: 40
                     spacing: 10
                     cacheBuffer: 100
+                    WheelHandler {
+                        id: wheelHandler
+                        target: lv
+                        orientation: Qt.Vertical
+                        property real scrollStep: 100  // Větší = rychlejší scroll
+
+                        onWheel: (event) => {
+                            let deltaY = event.angleDelta.y !== 0
+                                         ? event.angleDelta.y
+                                         : event.pixelDelta.y;
+
+                            // Výpočet posunu (scrollStep = jak rychle)
+                            let newY = lv.contentY - (deltaY / 120) * scrollStep;
+
+                            // Omezení posunu na platný rozsah
+                            lv.contentY = Math.max(0, Math.min(newY, lv.contentHeight - lv.height));
+
+                            // Zamezíme předání eventu dál
+                            event.accepted = true;
+                        }
+                    }
                 delegate: Item {
                     width: parent.width
                     height: 150
@@ -110,7 +131,7 @@ Page {
                         width: parent.width
                         height: 150
                         Layout.fillWidth: true
-                        color: vzhledAplikace.bg
+                        color: index % 2 === 0 ? vzhledAplikace.bg : vzhledAplikace.headbg // šedá pro sudé, jinak výchozí
 
                             Column {
                                 id: column

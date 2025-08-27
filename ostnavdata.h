@@ -7,27 +7,38 @@
 #include <QSqlError>
 #include <QDebug>
 #include <QCoreApplication>
+#include <QVariant>
 
-class ostnavdata : public QObject
-{
+// ostnavdata.h
+class ostnavdata : public QObject {
     Q_OBJECT
 public:
     explicit ostnavdata(QObject *parent = nullptr);
+    Q_INVOKABLE void vypisdata(const QString &id);   // 🔹 tady chybělo
 
-signals:
-public slots:
-    void vypisdata(QString id);
-    QString xnazev();
-    QString xnavestidlo();
-    QString xvzhled();
-    QString xpopis();
-    QString xico();
-    QString xden();
-    QString xnoc();
-    QString xvyh();
-    QString xvyhplan();
-    QString xsamovratnav();
-    QString xblik();
+    Q_INVOKABLE QString xnazev();
+    Q_INVOKABLE QString xnavestidlo();
+    Q_INVOKABLE QString xvzhled();
+    Q_INVOKABLE QString xpopis();
+    Q_INVOKABLE QVariantList xpopisModel();   // 🔹 nový getter
+    Q_INVOKABLE QString xico();
+    Q_INVOKABLE QString xden();
+    Q_INVOKABLE QString xnoc();
+    Q_INVOKABLE QString xvyh();
+    Q_INVOKABLE QString xvyhplan();
+    Q_INVOKABLE QString xsamovratnav();
+    Q_INVOKABLE QString xblik();
+private:
+    QString nazev;
+    QString navestidlo;
+    QString vzhled;
+    QString popis;
+    QString ico;
+    QString den;
+    QString noc;
+    QString vyh;
+    QString vyhplan;
+    QString samovratnav;
+    QString blikx;
 };
-
 #endif // OSTNAVDATA_H

@@ -18,6 +18,10 @@
 #include <QQuickItem>
 #include <QIcon>
 #include <QQmlApplicationEngine>
+#include <QQuickWindow>
+#include <QVariantList>
+#include <QString>
+#include "ostnavdata.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -28,7 +32,7 @@ int main(int argc, char *argv[])
     settings set;
     ostnavdata ond;
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(QCoreApplication::applicationDirPath().append("/ostatni.db"));
+    db.setDatabaseName(QCoreApplication::applicationDirPath().append("/main.db"));
     if (!db.open()) {
         qFatal("Failed to connect to database.");
     }
@@ -51,7 +55,6 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("rnd", &rnd);
     engine.rootContext()->setContextProperty("stringProcessor", &splitstrc);
     engine.rootContext()->setContextProperty("xsettings", &set);
-
     //engine.rootContext()->setContextProperty("data", oznpx);
 
     app.setWindowIcon(QIcon(":/images/logo.png"));
@@ -61,6 +64,8 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
+    QString osVersion = QSysInfo::prettyProductName(); // např. "Windows 10 (10.0)"
+    engine.rootContext()->setContextProperty("osVersion", osVersion);
     engine.load(QUrl(QStringLiteral("qrc:/Main.qml")));
     qmlRegisterType<ComboBoxHandler>("ComboBoxHandler", 1, 0, "ComboBoxHandler");
 
