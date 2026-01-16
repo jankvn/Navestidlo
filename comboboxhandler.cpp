@@ -6,16 +6,22 @@
 #include <QSqlError>
 #include <QDebug>
 #include <QCoreApplication>
+#include <QStandardPaths>
+#include <QFile>
+#include <QDir>
+#include <QDebug>
 ComboBoxHandler::ComboBoxHandler(QObject *parent)
     : QObject{parent}
 {}
 void ComboBoxHandler::onItemChanged(int newValue)
 {
     //qDebug() << "Value: " << newValue;
-    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(QCoreApplication::applicationDirPath().append("/main.db"));
-    if (!db.open()) {
-        qDebug() << "Failed to open database!";
+    QSqlDatabase xdb = QSqlDatabase::addDatabase("QSQLITE");
+    QString xdbPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/main.db";
+    qDebug() << xdbPath;
+    xdb.setDatabaseName(xdbPath);
+    if (!xdb.open()) {
+        qFatal("Failed to connect to database.");
     } else {
         QString nazev = "";
         QString barva = "";
@@ -28,24 +34,24 @@ void ComboBoxHandler::onItemChanged(int newValue)
         QString linka2 = "";
         QString vyznam = "";
         qDebug() << "Database opened successfully!";
-        QSqlQuery query;
-        query.prepare("SELECT * FROM navesti WHERE id = :id");
-        query.bindValue(":id", newValue);
-        if (!query.exec()) {
-            qDebug() << "Error fetching data:" << query.lastError().text();
+        QSqlQuery xquery;
+        xquery.prepare("SELECT * FROM navesti WHERE id = :id");
+        xquery.bindValue(":id", newValue);
+        if (!xquery.exec()) {
+            qDebug() << "Error fetching data:" << xquery.lastError().text();
         } else {
-            while (query.next()) {
+            while (xquery.next()) {
                 //QString zkrt = query.value(1).toString();
-                nazev = query.value(2).toString();
-                barva = query.value(3).toString();
-                hindct = query.value(4).toString();
-                blikr = query.value(5).toString();
-                blik1 = query.value(6).toString();
-                blik2 = query.value(7).toString();
-                dolindc = query.value(8).toString();
-                linka1 = query.value(9).toString();
-                linka2 = query.value(10).toString();
-                vyznam = query.value(12).toString();
+                nazev = xquery.value(2).toString();
+                barva = xquery.value(3).toString();
+                hindct = xquery.value(4).toString();
+                blikr = xquery.value(5).toString();
+                blik1 = xquery.value(6).toString();
+                blik2 = xquery.value(7).toString();
+                dolindc = xquery.value(8).toString();
+                linka1 = xquery.value(9).toString();
+                linka2 = xquery.value(10).toString();
+                vyznam = xquery.value(12).toString();
                 zaknavdata().xdata(nazev,barva,hindct,blikr,blik1,blik2,dolindc,linka1,linka2,vyznam);
                 //zaknavdata().popis(query.value(12).toString());
                 //QString snazev = query.value(2).toString();
@@ -63,9 +69,11 @@ void ComboBoxHandler::onItemChanged(int newValue)
     }}
 void ComboBoxHandler::vybratrychnav(int a, int b)
 {
-    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(QCoreApplication::applicationDirPath().append("/main.db"));
-    if (!db.open()) {
+    QSqlDatabase ydb = QSqlDatabase::addDatabase("QSQLITE");
+    QString ydbPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/main.db";
+    qDebug() << ydbPath;
+    ydb.setDatabaseName(ydbPath);
+    if (!ydb.open()) {
         qDebug() << "Failed to open database!";
     } else {
         if (a == 0){

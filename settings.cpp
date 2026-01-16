@@ -1,27 +1,34 @@
 #include "settings.h"
-QString thm = "";
-settings::settings(QObject *parent)
-    : QObject{parent}
-{}
-QSettings ysettings("Johan5140", "Navestidlo");
+#include <QDebug>
+
+settings::settings(QObject *parent) : QObject(parent)
+{
+    // Zajistí, aby adresář existoval
+    QString dataPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    QDir().mkpath(dataPath);
+
+    // Bezpečný QSettings soubor
+    QString settingsFile = dataPath + "/settings.ini";
+    settings_ = new QSettings(settingsFile, QSettings::IniFormat, this);
+
+    // Načti výchozí theme
+    thm_ = settings_->value("vzhled", "svetly").toString();
+}
+
 void settings::nastaveni(QString rezim)
 {
-    ysettings.setValue("vzhled", rezim);
+    settings_->setValue("vzhled", rezim);
+    settings_->sync();  // okamžitě uloží
+    thm_ = rezim;
 }
 
 void settings::vytahninastaveni()
 {
-    QString xtheme = ysettings.value("vzhled", "svetly").toString();
-    qDebug() << "SET:" << xtheme;
-    /*if (settings.contains("theme")) {
-        QString theme = settings.value("vzhled", "").toString();
-        nastaveni = theme;
-        qDebug() << "SET:" << theme;
-    }*/
-    thm = xtheme;
-
+    thm_ = settings_->value("vzhled", "svetly").toString();
+    qDebug() << "SET:" << thm_;
 }
-QString settings::theme()
+
+QString settings::theme() const
 {
-    return thm;
+    return thm_;
 }

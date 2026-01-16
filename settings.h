@@ -3,7 +3,8 @@
 
 #include <QObject>
 #include <QSettings>
-#include <QString>
+#include <QStandardPaths>
+#include <QDir>
 
 class settings : public QObject
 {
@@ -11,11 +12,13 @@ class settings : public QObject
 public:
     explicit settings(QObject *parent = nullptr);
 
-signals:
-public slots:
-    void vytahninastaveni();
-    void nastaveni(QString rezim);
-    QString theme();
+    Q_INVOKABLE void nastaveni(QString rezim);
+    Q_INVOKABLE void vytahninastaveni();
+    Q_INVOKABLE QString theme() const;
+
+private:
+    QSettings *settings_;
+    QString thm_;
 };
 
 #endif // SETTINGS_H
