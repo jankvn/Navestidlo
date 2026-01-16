@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "AndroidBridge",
+            "lineNumber": 29,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "lightIcons",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setStatusBarLightIcons",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "AndroidBridge",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "androidbridge.h",
+    "outputRevision": 69
+}

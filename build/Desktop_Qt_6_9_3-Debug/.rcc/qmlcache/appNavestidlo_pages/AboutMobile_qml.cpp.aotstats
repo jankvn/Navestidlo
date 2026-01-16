@@ -1,0 +1,684 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 801,
+                        "errorMessage": "Cannot access value for name xdbinfo",
+                        "functionName": "onCompleted",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "height",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 7,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 12,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 137,
+                        "errorMessage": "Cannot access value for name stackView",
+                        "functionName": "onClicked",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 252,
+                        "errorMessage": "Cannot access value for name backbtn",
+                        "functionName": "color",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 5,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "fill",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 213,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 89
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: backbtn",
+                        "functionName": "preferredWidth",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"left\".",
+                        "functionName": "left",
+                        "line": 108
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"right\".",
+                        "functionName": "right",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"bottom\".",
+                        "functionName": "bottom",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 144
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onEntered",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 43,
+                        "durationMicroseconds": 8,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onExited",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 137,
+                        "errorMessage": "Cannot access value for name aboutapplist",
+                        "functionName": "onClicked",
+                        "line": 158
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 45,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "topRounded",
+                        "line": 164
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "bottomRounded",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "Cannot load property isHovered from (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem.",
+                        "functionName": "fillColor",
+                        "line": 166
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 163
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 170
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "Cannot access value for name aboutapplist",
+                        "functionName": "text",
+                        "line": 178
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 181
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 182
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 145,
+                        "errorMessage": "Cannot access value for name aboutapplist",
+                        "functionName": "text",
+                        "line": 185
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 187,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 187
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 188
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 201
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 61,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 197
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 224
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 235
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 125,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 239
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 236
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 237
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 241
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 247
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 256
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 258
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onEntered",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 43,
+                        "durationMicroseconds": 7,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onExited",
+                        "line": 268
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 145,
+                        "errorMessage": "Cannot access value for name srcs",
+                        "functionName": "onClicked",
+                        "line": 269
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 270
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 265
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 45,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "topRounded",
+                        "line": 275
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "bottomRounded",
+                        "line": 276
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "Cannot load property isHovered from (component in /home/jan/Navestidlo/pages/AboutMobile.qml)::parent with type QQuickItem.",
+                        "functionName": "fillColor",
+                        "line": 277
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 274
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 281
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 287
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "Cannot access value for name srcs",
+                        "functionName": "text",
+                        "line": 289
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 176,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 292
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 293
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "Cannot access value for name srcs",
+                        "functionName": "text",
+                        "line": 296
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 170,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 298
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 299
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 185,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 312
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 61,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 308
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 309
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/pages/AboutMobile.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

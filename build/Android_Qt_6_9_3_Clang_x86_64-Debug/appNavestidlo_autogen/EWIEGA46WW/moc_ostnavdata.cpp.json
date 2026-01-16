@@ -1,0 +1,98 @@
+{
+    "classes": [
+        {
+            "className": "ostnavdata",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "ostnavdata",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "vypisdata",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "xnazev",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "xnavestidlo",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "xvzhled",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "xpopis",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "xico",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "xden",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "xnoc",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "xvyh",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "xvyhplan",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "xsamovratnav",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "xblik",
+                    "returnType": "QString"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ostnavdata.h",
+    "outputRevision": 69
+}

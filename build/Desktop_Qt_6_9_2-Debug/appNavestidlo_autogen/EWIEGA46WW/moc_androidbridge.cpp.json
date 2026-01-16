@@ -1,0 +1,31 @@
+{
+    "classes": [
+        {
+            "className": "DummyBridge",
+            "lineNumber": 37,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setStatusBarLightIcons",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DummyBridge",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "androidbridge.h",
+    "outputRevision": 69
+}

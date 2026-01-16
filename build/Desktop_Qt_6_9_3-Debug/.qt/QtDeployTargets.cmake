@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appNavestidlo_FILE /home/jan/Navestidlo/build/Desktop_Qt_6_9_3-Debug/appNavestidlo)
+set(__QT_DEPLOY_TARGET_appNavestidlo_TYPE EXECUTABLE)

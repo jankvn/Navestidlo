@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "SqlModel",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "SqlModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlQueryModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "sqlmodel.h",
+    "outputRevision": 69
+}

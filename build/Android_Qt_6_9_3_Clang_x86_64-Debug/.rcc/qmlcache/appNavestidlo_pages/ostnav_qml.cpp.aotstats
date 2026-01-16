@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 244,
+                        "errorMessage": "Cannot access value for name appWindow",
+                        "functionName": "source",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: root",
+                        "functionName": "onLoaded",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot access value for name appWindow",
+                        "functionName": "target",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "Cannot access value for name appWindow",
+                        "functionName": "onWidthChanged",
+                        "line": 28
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/pages/ostnav.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

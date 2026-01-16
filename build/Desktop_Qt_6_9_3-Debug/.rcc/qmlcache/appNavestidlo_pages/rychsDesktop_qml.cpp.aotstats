@@ -1,0 +1,1204 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 230,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 209,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 387,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 329,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "displayText",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 1185,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: handler",
+                        "functionName": "onActivated",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "highlighted",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in /home/jan/Navestidlo/pages/rychsDesktop.qml)::model with type QVariant (adjusted to QJSValue, stored as QJSValue)",
+                        "functionName": "text",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 263,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 329,
+                        "errorMessage": "Cannot access value for name highlighted",
+                        "functionName": "color",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 70,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "effectivePressed",
+                        "line": 132
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 202,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 163,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 237,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 155
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "onPressedChanged",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "rightPadding",
+                        "line": 172
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 174
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 175
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 231,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 177
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 178
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 249,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 184
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 185
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "Cannot load property Window from .",
+                        "functionName": "height",
+                        "line": 193
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 199
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "currentIndex",
+                        "line": 200
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 206
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 216
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 205,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 217
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 225
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 1208,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: handler",
+                        "functionName": "onActivated",
+                        "line": 256
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 1083,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: handler",
+                        "functionName": "onCompleted",
+                        "line": 238
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 280
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "highlighted",
+                        "line": 291
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in /home/jan/Navestidlo/pages/rychsDesktop.qml)::model with type QVariant (adjusted to QJSValue, stored as QJSValue)",
+                        "functionName": "text",
+                        "line": 282
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 212,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 283
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 284
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 285
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 286
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 243,
+                        "errorMessage": "Cannot access value for name highlighted",
+                        "functionName": "color",
+                        "line": 289
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 66,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "effectivePressed",
+                        "line": 295
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 298
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 177,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 299
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 296
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 311
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 312
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 322
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 318
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "onPressedChanged",
+                        "line": 319
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "rightPadding",
+                        "line": 335
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 337
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 338
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 233,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 339
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 340
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 341
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 272,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 347
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 348
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 354
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 355
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "Cannot load property Window from .",
+                        "functionName": "height",
+                        "line": 356
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 361
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 362
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "currentIndex",
+                        "line": 363
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 369
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 379
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 382
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 387
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 148,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 393
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 391
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 397
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 411
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 66,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 420
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 64,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 421
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 417
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 61,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "",
+                        "functionName": "idMap",
+                        "line": 434
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 67,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "Cannot access value for name rnd",
+                        "functionName": "myString",
+                        "line": 435
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 70,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "stringList",
+                        "line": 436
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "findItemById",
+                        "line": 437
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setVisibility",
+                        "line": 440
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "stopblikej",
+                        "line": 450
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "blikej",
+                        "line": 459
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 179,
+                        "errorMessage": "Cannot access value for name rnd",
+                        "functionName": "ukaztext",
+                        "line": 483
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 496,
+                        "errorMessage": "Cannot access value for name rnd",
+                        "functionName": "linky",
+                        "line": 491
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "Cannot access value for name rnd",
+                        "functionName": "horniidc",
+                        "line": 516
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 433
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 601
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 608
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 618
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 623
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 66,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 629
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 64,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 630
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 649
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 66,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 658
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 64,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 659
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 655
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 61,
+                        "durationMicroseconds": 192,
+                        "errorMessage": "",
+                        "functionName": "idMap",
+                        "line": 672
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 67,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "Cannot access value for name znd",
+                        "functionName": "myString",
+                        "line": 673
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 70,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "stringList",
+                        "line": 674
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "visible2nav",
+                        "line": 675
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "findItemById",
+                        "line": 682
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setVisibility",
+                        "line": 685
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "stopblikej",
+                        "line": 695
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "blikej",
+                        "line": 704
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "Cannot access value for name rnd",
+                        "functionName": "horniidc",
+                        "line": 728
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 671
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 813
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 52,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 847
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 849
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 228,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 856
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 862
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 868
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 203,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 870
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 866
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 176,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 879
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 886
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 57,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "preferredHeight",
+                        "line": 885
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "textFormat",
+                        "line": 889
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 890
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 44,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 893
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 894
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name znd",
+                        "functionName": "target",
+                        "line": 899
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"valueChanged\".",
+                        "functionName": "onValueChanged",
+                        "line": 901
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 905
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 917
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/pages/rychsDesktop.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

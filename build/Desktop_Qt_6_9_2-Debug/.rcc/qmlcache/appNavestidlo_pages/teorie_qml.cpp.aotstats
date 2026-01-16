@@ -1,0 +1,380 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot access value for name enabled",
+                        "functionName": "opacity",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 534,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onCompleted",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 225,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: root",
+                        "functionName": "height",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 11,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: root",
+                        "functionName": "width",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 195,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: root",
+                        "functionName": "width",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 350,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"left\".",
+                        "functionName": "left",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"right\".",
+                        "functionName": "right",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"bottom\".",
+                        "functionName": "bottom",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 200,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 183,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/teorie.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onEntered",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Type (component in /home/jan/Navestidlo/pages/teorie.qml)::parent with type QQuickItem does not have a property isHovered for writing",
+                        "functionName": "onExited",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 396,
+                        "errorMessage": "Cannot access value for name stackView",
+                        "functionName": "onClicked",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 99
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 94
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 49,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "topRounded",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 52,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "bottomRounded",
+                        "line": 105
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 328,
+                        "errorMessage": "Cannot load property isHovered from (component in /home/jan/Navestidlo/pages/teorie.qml)::parent with type QQuickItem.",
+                        "functionName": "fillColor",
+                        "line": 106
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 49,
+                        "durationMicroseconds": 361,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "source",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 257,
+                        "errorMessage": "Cannot access value for name teorielist",
+                        "functionName": "text",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 324,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "color",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 48,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 50,
+                        "durationMicroseconds": 323,
+                        "errorMessage": "Cannot access value for name vzhledAplikace",
+                        "functionName": "onPaint",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 139
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/pages/teorie.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

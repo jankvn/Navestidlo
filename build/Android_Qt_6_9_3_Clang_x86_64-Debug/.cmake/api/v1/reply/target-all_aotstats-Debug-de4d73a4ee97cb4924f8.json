@@ -1,0 +1,324 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_deferred_aotstats_setup"
+		],
+		"files" : 
+		[
+			"/home/jan/Qt/6.9.3/android_x86_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/jan/Qt/6.9.3/android_x86_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1139:EVAL",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1254,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "module_appNavestidlo_aotstats_target::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+	"name" : "all_aotstats",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/CMakeFiles/all_aotstats",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/CMakeFiles/all_aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/all_aotstats.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/module_appNavestidlo.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_components/RoundedBackground_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_components/VzhledAplikace_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/aboutapp_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/mainp_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybu_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveni_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/navestDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/navestMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/navest_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/ostatni_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnav_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/oznp_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/rychs_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/teorie_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/testy_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknav_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Android_Qt_6_9_3_Clang_x86_64-Debug/appnavestidlo_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

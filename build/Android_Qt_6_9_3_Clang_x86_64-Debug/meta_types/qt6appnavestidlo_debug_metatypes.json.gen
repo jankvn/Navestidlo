@@ -1,0 +1,609 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AndroidBridge",
+                "lineNumber": 29,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "lightIcons",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "setStatusBarLightIcons",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "AndroidBridge",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "androidbridge.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ComboBoxHandler",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "ComboBoxHandler",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newValue",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "onItemChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "a",
+                                "type": "int"
+                            },
+                            {
+                                "name": "b",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "vybratrychnav",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "comboboxhandler.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "dbinfo",
+                "lineNumber": 15,
+                "object": true,
+                "qualifiedClassName": "dbinfo",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "vypisdata",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "xlu",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "dbinfo.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ostnavdata",
+                "lineNumber": 15,
+                "object": true,
+                "qualifiedClassName": "ostnavdata",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "vypisdata",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "xnazev",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "xnavestidlo",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "xvzhled",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "xpopis",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "xico",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "xden",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "xnoc",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "xvyh",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "xvyhplan",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "name": "xsamovratnav",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "name": "xblik",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ostnavdata.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "rychnavdata",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "rychnavdata",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sxnazev",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxbarva",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxhindct",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblikr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblik1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblik2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxdolindc",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxlinka1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxlinka2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxvyznam",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "xdata",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "nazev",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "barva",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "hindct",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "blikr",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "blik1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "blik2",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "dolindc",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "linka1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "linka2",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "name": "vyznam",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "rychnavdata.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "settings",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rezim",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "nastaveni",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "vytahninastaveni",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "isConst": true,
+                        "name": "theme",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "settings",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "settings.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "splitstr",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "input",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "delimiter",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "splitString",
+                        "returnType": "QStringList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "splitstr",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "splitstr.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SqlModel",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "SqlModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "sqlmodel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SystemTheme",
+                "lineNumber": 14,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "dark",
+                        "notify": "themeChanged",
+                        "read": "isDark",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "SystemTheme",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "themeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "systemtheme.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "zaknavdata",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "zaknavdata",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sxnazev",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxbarva",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxhindct",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblikr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblik1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxblik2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxdolindc",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxlinka1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxlinka2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "sxvyznam",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "xdata",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "nazev",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "barva",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "hindct",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "blikr",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "blik1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "blik2",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "dolindc",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "linka1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "linka2",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "name": "vyznam",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "zaknavdata.h",
+        "outputRevision": 69
+    }
+]

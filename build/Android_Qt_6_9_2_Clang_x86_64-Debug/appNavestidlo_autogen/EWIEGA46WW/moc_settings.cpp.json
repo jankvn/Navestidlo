@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "className": "settings",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rezim",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "nastaveni",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "vytahninastaveni",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "isConst": true,
+                    "name": "theme",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "settings",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "settings.h",
+    "outputRevision": 69
+}

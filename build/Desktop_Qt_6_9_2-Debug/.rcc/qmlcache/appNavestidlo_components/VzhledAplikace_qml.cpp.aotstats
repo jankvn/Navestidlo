@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 296,
+                        "errorMessage": "Cannot access value for name xsettings",
+                        "functionName": "theme",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 543,
+                        "errorMessage": "",
+                        "functionName": "applyDark",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 487,
+                        "errorMessage": "",
+                        "functionName": "applyLight",
+                        "line": 108
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/components/VzhledAplikace.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

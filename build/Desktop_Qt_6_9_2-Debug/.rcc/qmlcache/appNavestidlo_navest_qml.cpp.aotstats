@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 298,
+                        "errorMessage": "",
+                        "functionName": "loadPage",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "Cannot load property pageName from QQuickLoader::item with type QObject.",
+                        "functionName": "getData",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "onWidthChanged",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "Cannot load property pageName from QQuickLoader::item with type QObject.",
+                        "functionName": "onLoaded",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"widthChanged\".",
+                        "functionName": "onWidthChanged",
+                        "line": 51
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/navest.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

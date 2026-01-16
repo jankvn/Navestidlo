@@ -1,0 +1,38 @@
+<RCC>
+  <qresource prefix="/qt/qml/Navestidlo/">
+    <file alias="Main.qml">/home/jan/Navestidlo/Main.qml</file>
+    <file alias="pages/zaknav.qml">/home/jan/Navestidlo/pages/zaknav.qml</file>
+    <file alias="pages/mainp.qml">/home/jan/Navestidlo/pages/mainp.qml</file>
+    <file alias="pages/rychs.qml">/home/jan/Navestidlo/pages/rychs.qml</file>
+    <file alias="pages/oznp.qml">/home/jan/Navestidlo/pages/oznp.qml</file>
+    <file alias="pages/ostnav.qml">/home/jan/Navestidlo/pages/ostnav.qml</file>
+    <file alias="pages/aboutapp.qml">/home/jan/Navestidlo/pages/aboutapp.qml</file>
+    <file alias="components/VzhledAplikace.qml">/home/jan/Navestidlo/components/VzhledAplikace.qml</file>
+    <file alias="pages/navest.qml">/home/jan/Navestidlo/pages/navest.qml</file>
+    <file alias="pages/AboutDesktop.qml">/home/jan/Navestidlo/pages/AboutDesktop.qml</file>
+    <file alias="pages/AboutMobile.qml">/home/jan/Navestidlo/pages/AboutMobile.qml</file>
+    <file alias="pages/zaknavMobile.qml">/home/jan/Navestidlo/pages/zaknavMobile.qml</file>
+    <file alias="pages/zaknavDesktop.qml">/home/jan/Navestidlo/pages/zaknavDesktop.qml</file>
+    <file alias="components/RoundedBackground.qml">/home/jan/Navestidlo/components/RoundedBackground.qml</file>
+    <file alias="pages/nahlasitchybuDesktop.qml">/home/jan/Navestidlo/pages/nahlasitchybuDesktop.qml</file>
+    <file alias="pages/nahlasitchybuMobile.qml">/home/jan/Navestidlo/pages/nahlasitchybuMobile.qml</file>
+    <file alias="pages/nastaveniDesktop.qml">/home/jan/Navestidlo/pages/nastaveniDesktop.qml</file>
+    <file alias="pages/nastaveniMobile.qml">/home/jan/Navestidlo/pages/nastaveniMobile.qml</file>
+    <file alias="pages/ostnavDesktop.qml">/home/jan/Navestidlo/pages/ostnavDesktop.qml</file>
+    <file alias="pages/ostnavMobile.qml">/home/jan/Navestidlo/pages/ostnavMobile.qml</file>
+    <file alias="pages/oznpDesktop.qml">/home/jan/Navestidlo/pages/oznpDesktop.qml</file>
+    <file alias="pages/oznpMobile.qml">/home/jan/Navestidlo/pages/oznpMobile.qml</file>
+    <file alias="pages/teorie.qml">/home/jan/Navestidlo/pages/teorie.qml</file>
+    <file alias="pages/testy.qml">/home/jan/Navestidlo/pages/testy.qml</file>
+    <file alias="pages/ostatni.qml">/home/jan/Navestidlo/pages/ostatni.qml</file>
+    <file alias="pages/nastaveni.qml">/home/jan/Navestidlo/pages/nastaveni.qml</file>
+    <file alias="pages/rychsDesktop.qml">/home/jan/Navestidlo/pages/rychsDesktop.qml</file>
+    <file alias="pages/rychsMobile.qml">/home/jan/Navestidlo/pages/rychsMobile.qml</file>
+    <file alias="pages/nahlasitchybu.qml">/home/jan/Navestidlo/pages/nahlasitchybu.qml</file>
+    <file alias="pages/navestMobile.qml">/home/jan/Navestidlo/pages/navestMobile.qml</file>
+    <file alias="pages/navestDesktop.qml">/home/jan/Navestidlo/pages/navestDesktop.qml</file>
+    <file alias="files.qrc">/home/jan/Navestidlo/files.qrc</file>
+    <file alias="version.h.in">/home/jan/Navestidlo/version.h.in</file>
+  </qresource>
+</RCC>
+

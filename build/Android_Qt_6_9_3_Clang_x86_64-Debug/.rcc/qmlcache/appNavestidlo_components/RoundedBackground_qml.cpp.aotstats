@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 792,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "Cannot access value for name roundedBackground",
+                        "functionName": "width",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name roundedBackground",
+                        "functionName": "height",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 256,
+                        "errorMessage": "Cannot access value for name topRounded",
+                        "functionName": "onPaint",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 24
+                    }
+                ],
+                "filePath": "/home/jan/Navestidlo/components/RoundedBackground.qml"
+            }
+        ],
+        "moduleId": "Navestidlo(appNavestidlo)"
+    }
+]

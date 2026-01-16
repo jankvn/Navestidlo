@@ -1,0 +1,2833 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appNavestidlo"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
+			"add_dependencies",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"add_definitions",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"include_directories",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"qt_add_resources",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"build/Desktop_Qt_6_9_2-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"/usr/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/usr/share/cmake-3.31/Modules/FindOpenGL.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/jan/Qt/6.9.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:813:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 967,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 638,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 299,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 297,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 9
+			},
+			{
+				"file" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"file" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 1296,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 617,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 27
+			},
+			{
+				"file" : 12,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 58,
+				"parent" : 29
+			},
+			{
+				"file" : 11,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 61,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 34
+			},
+			{
+				"file" : 16,
+				"parent" : 35
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 43,
+				"parent" : 36
+			},
+			{
+				"file" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 14,
+				"file" : 15,
+				"line" : 36,
+				"parent" : 38
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 39
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 40
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 322,
+				"parent" : 41
+			},
+			{
+				"file" : 14,
+				"parent" : 42
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 13,
+				"parent" : 43
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 322,
+				"parent" : 44
+			},
+			{
+				"file" : 13,
+				"parent" : 45
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 712,
+				"parent" : 46
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 710,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 17,
+				"file" : 10,
+				"line" : 951,
+				"parent" : 24
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 3607,
+				"parent" : 50
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 2976,
+				"parent" : 51
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 3613,
+				"parent" : 50
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 2976,
+				"parent" : 53
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 22,
+				"file" : 17,
+				"line" : 1,
+				"parent" : 55
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 56
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 57
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 58
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 4516,
+				"parent" : 59
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 4291,
+				"parent" : 60
+			},
+			{
+				"command" : 23,
+				"file" : 1,
+				"line" : 349,
+				"parent" : 0
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 833,
+				"parent" : 24
+			},
+			{
+				"command" : 24,
+				"file" : 10,
+				"line" : 3989,
+				"parent" : 63
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 341,
+				"parent" : 0
+			},
+			{
+				"command" : 24,
+				"file" : 10,
+				"line" : 4019,
+				"parent" : 63
+			},
+			{
+				"command" : 28,
+				"file" : 10,
+				"line" : 3814,
+				"parent" : 63
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 1518,
+				"parent" : 67
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3980,
+				"parent" : 63
+			},
+			{
+				"command" : 31,
+				"file" : 10,
+				"line" : 885,
+				"parent" : 24
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 70
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 71
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 72
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 932,
+				"parent" : 24
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 32,
+				"file" : 10,
+				"line" : 3458,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 1740,
+				"parent" : 76
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3321,
+				"parent" : 50
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3514,
+				"parent" : 50
+			},
+			{
+				"command" : 31,
+				"file" : 10,
+				"line" : 3629,
+				"parent" : 50
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 139
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 140
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 141
+			},
+			{
+				"command" : 31,
+				"file" : 10,
+				"line" : 3665,
+				"parent" : 50
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 143
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 144
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 145
+			},
+			{
+				"command" : 33,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 31,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 147
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 148
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 149
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 150
+			},
+			{
+				"command" : 34,
+				"file" : 0,
+				"line" : 838,
+				"parent" : 56
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2229,
+				"parent" : 152
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 62,
+					"define" : "BUILD_DATE=\"04.10.2025\""
+				},
+				{
+					"backtrace" : 49,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SQL_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/jan/Navestidlo/build/Desktop_Qt_6_9_2-Debug/appNavestidlo_autogen/include"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "/home/jan/Navestidlo"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "/home/jan/Navestidlo/build/Desktop_Qt_6_9_2-Debug/generated"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQml/6.9.2"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQml/6.9.2/QtQml"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtCore/6.9.2"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtCore/6.9.2/QtCore"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQmlMeta"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtQmlWorkerScript"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/jan/Qt/6.9.2/gcc_64/include/QtSql"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				25,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				87,
+				88,
+				89
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 52,
+			"id" : "appNavestidlo_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "appNavestidlo_copy_res::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "appNavestidlo_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appNavestidlo_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appNavestidlo_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appNavestidlo::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jan/Qt/6.9.2/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Quick.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Sql.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6QmlMeta.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6QmlWorkerScript.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6QmlModels.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Qml.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Network.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6OpenGL.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Gui.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/home/jan/Qt/6.9.2/gcc_64/lib/libQt6Core.so.6.9.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/jan/Qt/6.9.2/gcc_64/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appNavestidlo",
+	"nameOnDisk" : "appNavestidlo",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				25,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				95,
+				96,
+				97,
+				98,
+				172,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				94
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				93,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				109,
+				171
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/appNavestidlo_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/meta_types/qt6appnavestidlo_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/appnavestidlo_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_qmake_Navestidlo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "zaknavdata.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "zaknavdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "comboboxhandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "comboboxhandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "splitstr.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "splitstr.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "settings.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "settings.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "rychnavdata.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "rychnavdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "sqlmodel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "sqlmodel.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "ostnavdata.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "ostnavdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "androidbridge.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "androidbridge.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "dbinfo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "dbinfo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "systemtheme.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 75,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"path" : "pages/zaknav.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknav_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "pages/mainp.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/mainp_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "pages/rychs.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychs_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 85,
+			"path" : "pages/oznp.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznp_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 87,
+			"path" : "pages/ostnav.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnav_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"path" : "pages/aboutapp.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/aboutapp_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 91,
+			"path" : "components/VzhledAplikace.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_components/VzhledAplikace_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"path" : "pages/navest.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navest_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 95,
+			"path" : "pages/AboutDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"path" : "pages/AboutMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"path" : "pages/zaknavMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"path" : "pages/zaknavDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "components/RoundedBackground.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_components/RoundedBackground_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"path" : "pages/nahlasitchybuDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "pages/nahlasitchybuMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"path" : "pages/nastaveniDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"path" : "pages/nastaveniMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "pages/ostnavDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "pages/ostnavMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"path" : "pages/oznpDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"path" : "pages/oznpMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 121,
+			"path" : "pages/teorie.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/teorie_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"path" : "pages/testy.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/testy_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "pages/ostatni.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostatni_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 127,
+			"path" : "pages/nastaveni.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 128,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveni_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 129,
+			"path" : "pages/rychsDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 130,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"path" : "pages/rychsMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 133,
+			"path" : "pages/nahlasitchybu.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 134,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybu_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 135,
+			"path" : "pages/navestMobile.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 136,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navestMobile_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 137,
+			"path" : "pages/navestDesktop.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 138,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navestDesktop_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 142,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_appNavestidlo_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 146,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_appNavestidlo_raw_qml_0_extra_qmldirs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 151,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qmake_Navestidlo.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/Navestidlo/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/appNavestidlo_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"path" : "files.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "version.h.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/appNavestidlo_raw_qml_0_extra_qmldirs.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/Navestidlo/pages/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/Navestidlo/components/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/resources.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/home-light.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/home-dark.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/settings-dark.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/settings-light.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/logo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/neprnavic.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpicn.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/rychsoustaic.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/testy.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/zaklnavic.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "db/main.db",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/AB.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/ABkr.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/cestove.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/kryci.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/navposunvlak.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/null.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/oddilovenav.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/portal.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/provlak.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/seradovaci.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/spadovistni.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/vjezdove.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/vlozena.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/oznpasy/vyckavaci.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/blizizast.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/hranicnik.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/koncovnik.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/konecnastupiste.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/mistozastaveni.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/mistozastaveni2.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/nameznik.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/nameznikkonec.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/primo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/sa1.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/sa2.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/stuj.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/stujd.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/stujn.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/vlevo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/vpravo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/zleva_doleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/zleva_doprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/zprava_doleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/zprava_doprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/poszak.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/poszak_den.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/navesti/poszak_noc.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/primo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/vlevo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/vpravo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/zleva_doleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/zleva_doprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/zprava_doleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhybky/zprava_doprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/ovlevo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/ovpravo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/ozleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/ozprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pdoprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pprimo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pvlevo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pzleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pzprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pzpravadoleva.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/pzpravadoprava.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/zlevadolevap.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/vyhplan/zlevadopravap.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/menu-dark.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/menu-light.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/repabug-dark.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "images/repabug-light.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 153,
+			"path" : "NotoSansSymbols2-Regular.ttf",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/appNavestidlo_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/meta_types/qt6appnavestidlo_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/appnavestidlo_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_qmake_Navestidlo.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknav_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/mainp_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychs_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznp_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnav_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/aboutapp_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_components/VzhledAplikace_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navest_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/AboutMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/zaknavDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_components/RoundedBackground_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybuMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveniMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostnavMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/oznpMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/teorie_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/testy_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/ostatni_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nastaveni_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/rychsMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/nahlasitchybu_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navestMobile_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.rcc/qmlcache/appNavestidlo_pages/navestDesktop_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_appNavestidlo_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_appNavestidlo_raw_qml_0_extra_qmldirs.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/appNavestidlo_autogen/timestamp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2-Debug/meta_types/appNavestidlo_json_file_list.txt.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 49,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6qmlmeta_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/jan/Qt/6.9.2/gcc_64/metatypes/qt6sql_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

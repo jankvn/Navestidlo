@@ -1,0 +1,6 @@
+#pragma once
+
+#define APP_VERSION_MAJOR 0
+#define APP_VERSION_MINOR 8
+#define APP_BUILD_NUMBER  35
+#define APP_VERSION_STRING "0.8.35"
