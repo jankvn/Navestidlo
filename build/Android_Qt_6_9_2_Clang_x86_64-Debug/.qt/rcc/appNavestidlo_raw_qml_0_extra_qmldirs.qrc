@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Navestidlo/">
-    <file alias="pages/qmldir">/home/jan/Navestidlo/build/Android_Qt_6_9_2_Clang_x86_64-Debug/Navestidlo/pages/qmldir</file>
-    <file alias="components/qmldir">/home/jan/Navestidlo/build/Android_Qt_6_9_2_Clang_x86_64-Debug/Navestidlo/components/qmldir</file>
-  </qresource>
-</RCC>
-

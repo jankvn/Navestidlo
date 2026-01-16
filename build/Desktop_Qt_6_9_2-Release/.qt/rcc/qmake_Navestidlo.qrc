@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Navestidlo">
-    <file alias="qmldir">/home/jan/Navestidlo/build/Desktop_Qt_6_9_2-Release/Navestidlo/qmldir</file>
-  </qresource>
-</RCC>
-

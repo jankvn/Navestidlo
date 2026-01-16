@@ -1,8 +1,0 @@
-#!/bin/sh
-
-/home/jan/Qt/6.9.3/gcc_64/libexec/qt-android-runner.py \
-    --adb "/home/jan/Android/Sdk/platform-tools/adb" \
-    --build-path "/home/jan/Navestidlo/build/Android_Qt_6_9_3_Clang_x86_64-Debug/android-build-appNavestidlo" \
-    --apk "/home/jan/Navestidlo/build/Android_Qt_6_9_3_Clang_x86_64-Debug/android-build-appNavestidlo/appNavestidlo.apk" \
-    $@
-

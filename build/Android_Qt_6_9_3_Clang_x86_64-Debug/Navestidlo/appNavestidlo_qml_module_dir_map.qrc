@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Navestidlo">/home/jan/Navestidlo/build/Android_Qt_6_9_3_Clang_x86_64-Debug/Navestidlo</file>
-
-  </qresource>
-</RCC>

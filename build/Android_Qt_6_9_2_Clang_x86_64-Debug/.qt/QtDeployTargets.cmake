@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appNavestidlo_FILE /home/jan/Navestidlo/build/Android_Qt_6_9_2_Clang_x86_64-Debug/libappNavestidlo_x86_64.so)
-set(__QT_DEPLOY_TARGET_appNavestidlo_TYPE MODULE_LIBRARY)
